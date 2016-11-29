@@ -28,7 +28,7 @@ define('DB_NAME', 'nickyky117_designo');
 define('DB_USER', 'nickyky117_web');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'vikking8');
+define('DB_PASSWORD', 'designosource');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
