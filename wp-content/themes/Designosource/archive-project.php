@@ -1,8 +1,6 @@
 <?php
     get_header();
 ?>
-
-
 <div class="top">
     <h1><span class="top__first-headline">Alle projecten</span><span class="top__second-headline">Down memory lane</span></h1>
     <div class="top__bg"></div>

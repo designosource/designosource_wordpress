@@ -21,7 +21,9 @@
                  <h1><?php the_title(); ?></h1>
                  <p><?php the_content(); ?></p>
                 <div class="wrap-buttons">
-                    <a href="<?php the_permalink(); ?>"><div class="btn-case">Ontdek</div></a>
+                    <?php if(!get_field("no_projectpage")): ?>
+                        <a href="<?php the_permalink(); ?>"><div class="btn-case">Ontdek</div></a>
+                    <?php endif; ?>
                     <?php if(!empty(get_field("project_url"))): ?>
                     <a href="http://<?php the_field("project_url"); ?>"><div class="btn-case btn-website">Website</div></a>
                     <?php endif; ?>
@@ -34,11 +36,11 @@
 
      <div class="section">
 
-        <div class="wrap-back" style="background-image: url(<?php echo get_template_directory_uri(); ?>/public/img/workflow/workflow_1.jpg)">
+        <div class="wrap-back" style="background-image: url(<?php echo get_template_directory_uri(); ?>/public/img/archive.jpg)">
             <div class="overlay"></div>
             <div class="wrap-panel-content">
-                 <h1>Meer zien?</h1>
-                 <p>Benieuwd naar alle projecten?</p>
+                 <h1>Nostalgie?</h1>
+                 <p>Ontdek alle vorige Designosource generaties.</p>
                 <div class="wrap-buttons">
                     <a href="<?php echo site_url(); ?>/allprojects"><div class="btn-case">Ontdek alle projecten</div></a>
                 </div>

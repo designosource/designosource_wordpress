@@ -16,8 +16,11 @@
     <div class="top__bg" style="background-image: url(<?php the_field("background"); ?>)">
         <?php if(get_field("video_bg")): ?>
             <video autoplay loop muted class="top__bg__video">
-                <source src="<?php the_field("video_bg_file"); ?>" type="video/mp4">
+                <source src="<?php the_field("video_bg_file_ogv"); ?>" type='video/ogg; codecs="theora, vorbis"'/>
+                <source src="<?php the_field("video_bg_file_webm"); ?>" type='video/webm' >
+                <source src="<?php the_field("video_bg_file"); ?>" type='video/mp4'>
             </video>
+
         <?php endif; ?>
     </div>
     <div class="overlay"></div>
