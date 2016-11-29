@@ -25,13 +25,13 @@ define( 'WPCACHEHOME', '/home/nickyky117/domains/wearestrong.be/public_html/proj
 define('DB_NAME', 'nickyky117_designo');
 
 /** MySQL database username */
-define('DB_USER', 'nickyky117_web');
+define('DB_USER', 'nickyky117_des');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'designosource');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'wearestrong.be');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
