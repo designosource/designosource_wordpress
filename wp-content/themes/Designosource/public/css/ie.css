@@ -1,0 +1,9 @@
+@media(min-width: 768px){
+    .navigation{
+        margin-top: 50px;
+        height: 100%;
+    }
+    .logo{
+        margin-top: -48vh;
+    }
+}

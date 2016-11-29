@@ -1,0 +1,75 @@
+.projects-grid
+{
+	width: 100%;
+	display: flex;
+	padding-top: 250px;
+	padding-bottom: 150px;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	margin-top: 200px;
+}
+
+.projects-grid__col
+{
+	position: relative;
+	height: 400px;
+	width: 30%;
+	margin: 1%;
+	flex-grow: 1;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+	transition: all 0.2s ease-in-out;
+}
+
+.projects-grid__col:hover
+{
+	transform: scale(1.01);
+	transition: all 0.2s ease-in-out;
+}
+
+.projects-grid__col:hover .projects-grid__col__text
+{
+	transform: translateY(0);
+	transition: all 0.2s ease-in-out;
+	opacity: 1;
+}
+
+.projects-grid__col__text
+{
+	color: white;
+	font-family: "Lato", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	position: relative;
+	z-index: 9999;
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.projects-year
+{
+	font-size: 400px;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	color: $purple;
+	position: absolute;
+	top: 0;
+	left: -5%;
+	opacity: 0.8;
+}
+
+.projects-year--green
+{
+	left: auto;
+	right: -5%;
+	color: $green;
+}

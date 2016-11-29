@@ -1,0 +1,403 @@
+.workflow
+{
+	overflow: hidden;
+}
+
+.top
+{
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.top__bg
+{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(../img/workflow/workflow_top_bg.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0;
+}
+
+.top__title
+{
+	position: relative;
+	z-index: 9999;
+}
+
+.top__content
+{
+	width: 100%;
+	position: absolute;
+	bottom: 60px;
+	left: 0;
+}
+
+.top__content .wrap-buttons
+{
+	width: 450px;
+}
+
+.top__first-headline
+{
+	font-size: 2.4rem;
+	color: $green;
+	display: block;
+	margin-top: 120px;
+	margin-left: 150px;
+	transform: translateX(-40px);
+	opacity: 0;
+	position: relative;
+	z-index: 800;
+}
+
+.top__second-headline
+{
+	font-size: 4.8rem;
+	color: $green;
+	display: block;
+	margin-top: 20px;
+	margin-left: 150px;
+	font-weight: 700;
+	transform: translateX(-40px);
+	opacity: 0;
+	position: relative;
+	z-index: 800;
+}
+
+.first-block
+{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.first-block__image
+{
+	width: 30%;
+	height: 700px;
+	background-image: url(../img/workflow/workflow_4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.first-block__content
+{
+	width: 80%;
+	padding-left: 150px;
+	padding-right: 150px;
+	margin-top: -100px;
+	box-sizing: border-box;
+}
+
+.block-title
+{
+	font-family: "Lato", sans-serif;
+	color: #333333;
+	font-size: 1.1rem;
+	letter-spacing: 1.9px;
+	line-height: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.block-text
+{
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	color: #333333;
+	font-size: 0.9rem;
+	letter-spacing: 1.48px;
+	line-height: 36px;
+	width: 80%;
+	max-width: 700px;
+}
+
+.block-text--white, .block-title--white
+{
+	color: white;
+}
+
+.second-block
+{
+	width: 100%;
+	display: flex;
+	margin-top: 300px;
+	position: relative;
+}
+
+.second-block__image
+{
+	width: 50%;
+	height: 100%;
+	min-height: 800px;
+	background-image: url(../img/workflow/workflow_2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.second-block__content
+{
+	width: 80%;
+	padding: 150px;
+	padding-top: 350px;
+	box-sizing: border-box;
+}
+
+.floating-block
+{
+	height: 600px;
+	width: 75%;
+	background-image: url(../img/workflow/workflow_3.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: -400px;
+	left: 150px;
+	-webkit-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+	box-sizing: border-box;
+}
+
+.floating-block__overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #4776E6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top left, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top left, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	opacity: 0.8;
+}
+
+.floating-block--purple
+{
+	width: 30%;
+	background-color: red;
+	position: absolute;
+	bottom: -200px;
+	right: 150px;
+	padding: 100px 70px;
+	background-color: $purple;
+	-webkit-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+	box-sizing: border-box;
+}
+
+.floating-block--purple .block-text
+{
+	width: 100%;
+}
+
+.third-block
+{
+	width: 100%;
+	position: relative;
+	background-image: url(../img/workflow/workflow_black_bg.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 50vh;
+	min-height: 700px;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.third-block__content
+{
+	width: 60%;
+	padding: 150px;
+	box-sizing: border-box;
+}
+
+.fourth-block
+{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.fourth-block__image
+{
+	width: 35%;
+	height: 600px;
+	background-image: url(../img/workflow/workflow_1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.fourth-block__content
+{
+	width: 65%;
+	padding: 150px;
+	box-sizing: border-box;
+}
+
+.footer
+{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #333;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__logo
+{
+	height: 30px;
+	width: auto;
+}
+
+@media screen and (max-width: 1200px)
+{
+
+	.first-block__content, .second-block__content, .fourth-block__content
+	{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+}
+
+@media screen and (max-width: 980px)
+{
+	.top
+	{
+		height: 90vh;
+		background-attachment: scroll;
+	}
+
+	.top__first-headline
+	{
+		font-size: 1.4rem;
+		margin-left: 50px;
+	}
+
+	.top__second-headline
+	{
+		font-size: 2.4rem;
+		margin-left: 50px;
+	}
+
+	.first-block
+	{
+		flex-wrap: wrap;
+	}
+
+	.first-block__content
+	{
+		width: 100%;
+		margin-top: 0;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.first-block__image
+	{
+		width: 60%;
+		margin-left: 40%;
+		height: 400px;
+	}
+
+	.block-text
+	{
+		max-width: auto;
+		width: 100%;
+	}
+
+	.second-block
+	{
+		margin-top: 100px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		flex-wrap: wrap;
+	}
+
+	.second-block__image
+	{
+		width: 70%;
+		height: 500px;
+		min-height: 500px;
+		background-image: url(../img/workflow/workflow_2.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.second-block__content
+	{
+		width: 100%;
+		padding: 150px 50px;
+		box-sizing: border-box;
+	}
+
+	.third-block
+	{
+		align-items: flex-start;
+		background-attachment: scroll;
+	}
+
+	.third-block__content
+	{
+		width: 100%;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.floating-block
+	{
+		width: 80%;
+		top: -250px;
+		left: 10%;
+		height: 400px;
+	}
+
+	.floating-block--purple
+	{
+		width: 80%;
+		top: 550px;
+		bottom: auto;
+		right: 10%;
+		padding: 70px 40px;
+	}
+
+	.fourth-block
+	{
+		flex-wrap: wrap;
+		flex-direction: row-reverse;
+	}
+
+	.fourth-block__image
+	{
+		width: 100%;
+		height: 600px;
+		background-image: url(../img/workflow/workflow_1.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.fourth-block__content
+	{
+		width: 100%;
+		padding: 150px 50px;
+		margin-top: 500px;
+		box-sizing: border-box;
+	}
+}
