@@ -30,7 +30,12 @@
     <meta name="description" content="">
     <meta name="theme-color" content="">
 
+<?php if(is_404()): ?>
+    <title>404 | Designosource</title>
+<?php else: ?>
     <title><?php the_title(); ?> | Designosource</title>
+<?php endif; ?>
+    
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/public/css/reset.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/public/css/style.min.css">

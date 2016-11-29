@@ -1,4 +1,59 @@
-.404
+.not-found
 {
-	
+	background-color: black;
+	background-image: url(../img/404.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.not-found__content
+{
+	position: absolute;
+	bottom: 70px;
+	left: 10%;
+}
+
+.not-found__content__subtitle
+{
+	font-size: 0.9rem;
+	color: white;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: "Lato", sans-serif;
+	font-weight: 500;
+}
+
+.button
+{
+	font-family: Lato;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    background: none repeat scroll 0% 0% transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+    margin-top: 0;
+    z-index: 99;
+    border-width: 2px !important;
+    border-style: solid !important;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 14px;
+    height: 40px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
+    margin-right: 15px;
+    width: auto;
 }
