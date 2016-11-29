@@ -62,3 +62,18 @@
     color: #000;
     background-color: #fff;
 }
+
+@media screen and (max-width: 768px)
+{
+	.not-found__content__subtitle
+	{
+		margin-bottom: 15px;
+	}
+
+	.not-found__content__title
+	{
+		font-size: 1.2rem;
+		line-height: 1.5;
+		margin-bottom: 20px;
+	}
+}
