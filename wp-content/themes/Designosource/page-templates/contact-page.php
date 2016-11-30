@@ -3,7 +3,7 @@
 
     get_header();
 ?>
-
+<div class="containerContact">
     <div class="contactContainer">
     <div class="first-block" id="blockFirst">
         <div class="first-block__content">
@@ -26,12 +26,10 @@
             <p>hello[at]designosource.be</p>
         </div>
     </div>
-
-
+</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/public/js/jquery.shuffleLetters.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/public/js/script.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/public/js/typed.min.js"></script>
     <script>
         $(function(){
             $("#typed").typed({
@@ -44,6 +42,6 @@
             });
         });
     </script>
-    <script src="<?php echo get_template_directory_uri(); ?>/public/js/typed.min.js"></script>
+
 
 <?php get_footer(); ?>
