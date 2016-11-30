@@ -16,11 +16,14 @@ $(document).ready(function(){
         if( $('.navigation').hasClass('is-visible') ) {
             $('.navigation').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
             });
+            $('html, body').removeClass("noscroll");
 
         } else {
             $('.navigation').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+            
 
             });
+            $('html, body').addClass("noscroll");
         }
     });
 
