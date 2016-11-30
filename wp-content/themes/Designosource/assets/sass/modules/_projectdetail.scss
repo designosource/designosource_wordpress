@@ -5,10 +5,11 @@
 
 .project-description__title, .title {
     font-size: 1.1rem;
-    font-weight: 700;
+    font-weight: 900;
     color: #333;
     font-family: "Lato",sans-serif;
     text-transform: uppercase;
+    letter-spacing: 2px;
     margin-bottom: 20px;
 }
 
@@ -20,7 +21,6 @@ p
     color: #333;
     font-family: "Lato",sans-serif;
 }
-
 
 .project-photos {
     width: 100%;
@@ -222,4 +222,39 @@ p
 	object-fit: cover;
 	height: 100%;
 	width: 100%;
+}
+
+@media screen and (max-width: 768px)
+{
+    .top__bg__video
+    {
+        display: none;
+    }
+
+    .grid
+    {
+        flex-wrap: wrap;
+    }
+
+    .col
+    {
+        width: 100%;
+    }
+
+    .project-detail__col__image
+    {
+        height: 500px;
+        width: 100%;
+    }
+
+    .project-detail__col__content
+    {
+        margin-top: 60px;
+    }
+
+    .project-solution
+    {
+        padding-bottom: 100px;
+    }
+
 }
