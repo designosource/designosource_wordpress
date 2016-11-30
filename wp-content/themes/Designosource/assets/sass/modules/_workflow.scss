@@ -255,13 +255,29 @@
 	padding-bottom: 30px;
 	background-color: #333;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+    align-items: center;
 }
 
 .footer__logo
 {
-	height: 30px;
+	height: 20px;
 	width: auto;
+}
+
+.footer__tm-logo
+{
+	height: 20px;
+	width: auto;
+}
+
+.footer__email
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 0.1em;
 }
 
 @media screen and (max-width: 1200px)
