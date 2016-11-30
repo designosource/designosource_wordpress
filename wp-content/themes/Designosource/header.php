@@ -30,11 +30,20 @@
     <meta name="description" content="">
     <meta name="theme-color" content="">
 
-<?php if(is_404()): ?>
-    <title>404 | Designosource</title>
-<?php else: ?>
-    <title><?php the_title(); ?> | Designosource</title>
-<?php endif; ?>
+    <?php 
+        $title = null;
+
+        if(is_404()):
+            $title = "404";
+        elseif(is_front_page()):
+            $title = "Home";
+        else: 
+            $title = get_the_title();
+        endif; 
+
+    ?>
+
+    <title><?php echo $title; ?> | Designosource</title>
     
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/public/css/reset.css">
@@ -42,18 +51,36 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/public/css/jquery.fullPage.css" />
  <!--    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/public/css/animsition.min.css"> -->
 
-    <meta property="og:title" content=""/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content=""/>
-    <meta property="og:site_name" content="Designosource"/>
-    <meta property="og:description" content=""/>
-    <meta property="og:url" content="http://www.designosource.be"/>
 
-    <meta name="twitter:title" content="Designosource"/>
-    <meta name="twitter:image" content=""/>
+    <meta name="twitter:title" content="<?php echo $title; ?> | Designosource"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@designosource"/>
     <meta name="twitter:description" content=""/>
+
+    <meta property="og:title" content="<?php echo $title; ?> | Designosource"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image:height" content="400"/>
+    <meta property="og:image:width" content="700"/>
+    <meta property="og:site_name" content="Designosource"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content="<?php echo get_page_link(get_the_ID()); ?>"/>
+    <?php
+        $id = get_the_ID();
+        if(!empty(get_field("background", $id))):
+    ?>
+        <meta property="og:image" content="<?php echo get_field("background", $id);?>"/>
+        <meta name="twitter:image" ccontent="<?php echo get_field("background", $id);?>"/>
+    <?php else: ?>
+        <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/public/img/bg.png"/>
+        <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/public/img/bg.png"/>
+    <?php endif; ?>
+
+        
+
+
+
+        
+
 
     <script>
         (function(h,o,t,j,a,r){
