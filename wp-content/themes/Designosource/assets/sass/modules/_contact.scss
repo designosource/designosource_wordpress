@@ -32,7 +32,7 @@
 .contactInfoBlock
 {
   position: relative;
-  height: 36vh;
+  height: 47vh;
 }
 
 .contactInfo
@@ -68,7 +68,7 @@
 #blockContact
 {
   height: 170px;
-  top:35vh;
+  top:37vh;
   width: 90%;
   left: 5%;
   max-width: 768px;
@@ -95,7 +95,7 @@
 @media (min-width: 768px) {
   .contactContainer
   {
-    height: 76vh;
+    height: 65vh;
   }
 
   .quoteFixed
@@ -121,8 +121,19 @@
     padding-top: 15px;
     top: 77%;
     max-width: 550px;
-    margin-left: -275px;
+    margin-left: 10%;
     left: 50%;
+  }
+
+  .contactInfoBlock
+  {
+    height: 35vh;
+  }
+
+  .contactInfo
+  {
+    right: 75px;
+    bottom: 75px;
   }
 }
 
