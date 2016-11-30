@@ -17,7 +17,7 @@
     </div>
 </div>
 
-<div class="wrapper">
+<div class="wrap-team">
     <main class="smooth">
         <section class="content">
             <a class="tilter tilter--1">
@@ -29,9 +29,9 @@
                         <div class="tilter__title2">Dassonneville</div>
                         <div class="tilter__description">Javascript Monkey</div>
                         <div class="social">
-                            <div class="in"><div href="#"></div></div>
-                            <div class="t"><div href="#"></div></div>
-                            <div class="f"><div href="#"></div></div>
+                            <div class="in"></div>
+                            <div class="t"></div>
+                            <div class="f"></div>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">

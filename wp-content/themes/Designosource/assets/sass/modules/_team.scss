@@ -1,5 +1,13 @@
 *, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+.wrap-team
+{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+
 .content 
 {
     padding: 10em 0 4em 0;
@@ -193,4 +201,33 @@
 .tilter--1 .tilter__figure::before 
 {
     box-shadow: 0 30px 20px rgba(0,0,0,0.5);
+}
+
+.floating-block--team
+{
+    width: 80%;
+    position: absolute;
+    bottom: -210px;
+    right: 20px;
+    padding: 20px 30px;
+    background-color: $purple;
+    -webkit-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 500;
+}
+
+@media(min-width: 768px)
+{
+    .floating-block--team
+    {
+        width: 550px;
+        position: absolute;
+        bottom: -170px;
+        right: 110px;
+        padding: 70px 70px;
+        background-color: $purple;
+    }
 }
