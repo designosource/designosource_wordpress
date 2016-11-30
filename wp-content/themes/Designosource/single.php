@@ -40,7 +40,24 @@
             <h2 class="project-photos__floating__title">Over <?php the_title(); ?></h2>
             <div class="project-photos__floating__text"><?php the_field("full_description"); ?> </div>
         </div>
+
+        <!-- Slider - only used on mobile -->
+        <div class="swiper-container project-swiper">
+
+            <div class="swiper-wrapper">
+           
+                <div class="project-photos__photo swiper-slide" style="background-image: url(<?php the_field("photo_1"); ?>)"></div>
+                <div class="project-photos__photo swiper-slide" style="background-image: url(<?php the_field("photo_2"); ?>)"></div>
+                <div class="project-photos__photo swiper-slide" style="background-image: url(<?php the_field("photo_3"); ?>)"></div>
+                
+            </div>
+       
+            <div class="swiper-pagination"></div>
+            
+        </div>
     </div>
+    
+
 </div>
 
 <div class="project-detail">
@@ -103,7 +120,17 @@
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+
 <script>
+
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay: 2000,
+    pagination: '.swiper-pagination'
+  })  
 
     window.onbeforeunload = function () {
       window.scrollTo(0, 0);

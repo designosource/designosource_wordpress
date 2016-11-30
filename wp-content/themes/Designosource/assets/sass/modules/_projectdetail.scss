@@ -1,6 +1,6 @@
 .project-description {
-    padding-top: 150px;
-    padding-bottom: 150px
+    padding-top: 100px;
+    padding-bottom: 100px
 }
 
 .project-description__title, .title {
@@ -224,6 +224,11 @@ p
 	width: 100%;
 }
 
+.project-swiper
+{
+    display: none;
+}
+
 @media screen and (max-width: 768px)
 {
     .top__bg__video
@@ -241,6 +246,12 @@ p
         width: 100%;
     }
 
+    .project-detail
+    {
+        margin-top: 0;
+        padding-top: 300px;
+    }
+
     .project-detail__col__image
     {
         height: 500px;
@@ -255,6 +266,34 @@ p
     .project-solution
     {
         padding-bottom: 100px;
+    }
+
+    .project-photos .project-photos__photo
+    {
+        display: none;
+    }
+
+    .project-swiper
+    {
+        display: block;
+        width: 100%;
+        height: 500px;
+        margin-bottom: 100px;
+    }
+
+    .project-swiper .project-photos__photo
+    {
+        width: 100%;
+        display: block;
+        margin: 0 !important;
+    }
+
+    .project-photos__floating {
+        width: 90%;
+        top: 40%;
+        right: -10%;
+        padding: 70px 40px;
+        z-index: 999;
     }
 
 }
