@@ -28,7 +28,12 @@
             <p>hello[at]designosource.be</p>
         </div>
     </div>
-
+    
+<footer class="footer">
+    <div class="wrapper">
+        <img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Logo" class="footer__logo">
+    </div>
+</footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
