@@ -4,24 +4,28 @@
     get_header();
 ?>
 
- <div class="contactContainer">
-       <div class="type-wrap">     <span id="typed" style="white-space:pre;"></span> </div> 
-           <div class="floating-block--purple" id="contactBlockPurple">
-               <div class="contactInfoPart1">
-                   <h2>Samenwerken met ons?</h2>
-                   <h3>hello@designosource.be</h3>
-               </div>
-           </div>
-           <div class="third-block__content">
-               <div class="contactInfoPart2">
-                   <h4>Waar kan je ons vinden?</h4>
-                   <p>Lange ridderstraat 44</p>
-                   <p>2800 Mechelen</p>
-                   <p>Tel. +32 15 36 92 20</p>
-                   <p id="contactEmail">hello@designosource.be</p>
-               </div>
-           </div>
-       </div>
+    <div class="contactContainer">
+    <div class="first-block" id="blockFirst">
+        <div class="first-block__content">
+            <div class="floating-block--team" id="blockContact">
+                <h2>Samenwerken met ons?</h2>
+                <p>hello[at]designosource.be</p>
+            </div>
+        </div>
+    </div>
+
+        <div class="quoteFixed"><h2>We deliver eggceptional work</h2></div>
+        <div class="type-wrap"><span id="typed" style="white-space:pre;"></span></div>
+</div>
+    <div class="contactInfoBlock">
+        <div class="contactInfo">
+            <h2>Waar kan je ons vinden?</h2>
+            <p>Lange ridderstraat 44</p>
+            <p>2800 Mechelen</p>
+            <p>Tel. +32 15 36 92 20</p>
+            <p>hello[at]designosource.be</p>
+        </div>
+    </div>
 
 
 
