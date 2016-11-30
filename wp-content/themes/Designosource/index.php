@@ -3,6 +3,8 @@
             <div id="teamBackground" class="wrap-back">
                 <div class="overlay"></div>
                 <div class="wrap-panel-content">
+                    <h1 class="homeHidden">Designosource</h1>
+                    <h2 class="homeHidden">Truly Eggceptional</h2>
                     <img src="<?php echo get_template_directory_uri(); ?>/public/img/designosource.svg" id="logoDesigno" alt="logo Designosource" title="logo Designosource">
                     <img src="<?php echo get_template_directory_uri(); ?>/public/img/truly-eggceptional.svg" id="logoTruly" alt="logo Truly Eggceptional" title="logo Truly Eggceptional">
                     <div class="wrap-buttons">
