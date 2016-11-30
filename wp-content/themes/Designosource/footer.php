@@ -57,7 +57,7 @@
 
             $('#fullpage').fullpage({
                 navigation: true,
-
+                easingcss3: "ease-in-out",
                 onLeave: function(index, nextIndex, direction){
                     // Hide arrow on last section
                     if(nextIndex == 4)

@@ -130,7 +130,7 @@
 {
   padding: 0 45px;
   display: block;
-  margin-right: auto;
+  margin-right: 20px;
 }
 
 // DAMON
@@ -151,7 +151,7 @@
 .wrap-panel-content
 {
   position: absolute;
-  bottom: 0;
+  bottom: 70px;
   left: 0;
   margin-bottom: 20px;
   margin-left: 5%;
@@ -166,7 +166,7 @@
   display: block;
   opacity: 0.8;
   max-width: 350px;
-  margin: -15px auto 30px auto;
+  margin-bottom: 20px;
 }
 
 .fp-tableCell > p
@@ -232,6 +232,8 @@
   {
     box-sizing: border-box;
     width: 100%;
+    margin-right: 0;
+    margin-top: 20px;
   }
 
 }

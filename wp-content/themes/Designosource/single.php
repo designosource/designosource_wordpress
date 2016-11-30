@@ -22,6 +22,7 @@
             </video>
 
         <?php endif; ?>
+        <div class="top__bg--blur" style="background-image: url(<?php the_field("background"); ?>)"></div>
     </div>
     <div class="overlay"></div>
 </div>
@@ -145,6 +146,14 @@
             $(".workflow").css("overflow", "auto");
         }, 2100);     
     });
+
+    (function () {
+        $(window).scroll(function () {
+            var oVal;
+            oVal = $(window).scrollTop() / 240;
+            return $('.top__bg--blur').css('opacity', oVal);
+        });
+    }.call(this));
 
 </script>
 <?php endwhile; endif; ?>
