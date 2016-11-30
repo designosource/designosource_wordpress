@@ -42,7 +42,7 @@ nav ul li a {
   height: 100%;
   width: 50px;
   background-color: transparent;
-  z-index: 9999;
+  z-index: 99999;
   cursor: pointer;
   padding-right: 25px;
 }
@@ -175,7 +175,7 @@ nav ul li a {
   -o-transform: translateY(0);
   transform: translateY(0);
   background-color: #22242a;
-  z-index: 999;
+  z-index: 9999;
   position: fixed;
   flex-direction: column;
   display: flex;
