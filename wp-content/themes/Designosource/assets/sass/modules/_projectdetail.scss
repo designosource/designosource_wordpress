@@ -250,6 +250,7 @@ p
     {
         margin-top: 0;
         padding-top: 300px;
+        padding-bottom: 100px;
     }
 
     .project-detail__col__image
@@ -266,6 +267,7 @@ p
     .project-solution
     {
         padding-bottom: 100px;
+        padding-top: 100px;
     }
 
     .project-photos .project-photos__photo
@@ -294,6 +296,26 @@ p
         right: -10%;
         padding: 70px 40px;
         z-index: 999;
+    }
+
+    .project-footer
+    {
+        flex-wrap: wrap;
+    }
+
+    .project-footer__title
+    {
+        font-size: 1.1rem;
+    }
+
+    .project-footer__next, .project-footer__prev
+    {
+        padding: 100px 50px;
+    }
+
+    .project-photos__floating__text p
+    {
+        font-size: 0.9rem;
     }
 
 }

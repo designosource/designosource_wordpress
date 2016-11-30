@@ -6,7 +6,13 @@
   position: relative;
   width: 100vw;
   height: 54vh;
+  min-height: 600px;
   color: white;
+}
+
+.contactContainer .first-block
+{
+  height: 100%;
 }
 
 .type-wrap
@@ -21,8 +27,6 @@
   color: #00FFCA;
   font-weight: 500;
   font-size: 1.6em;
-  margin-left:25px;
-  margin-right: 25px;
   line-height: 1.4em;
   font-family: Lato, sans-serif;
   text-transform: uppercase;
@@ -67,7 +71,7 @@
 #blockContact
 {
   height: 200px;
-  top:40vh;
+  bottom: -100px;
   width: 90%;
   left: 5%;
   max-width: 768px;

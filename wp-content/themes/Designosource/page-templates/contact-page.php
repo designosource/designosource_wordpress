@@ -7,6 +7,9 @@
     <div class="contactContainer">
     <div class="first-block" id="blockFirst">
         <div class="first-block__content">
+            <div class="quoteFixed"><h2>We deliver eggceptional work</h2></div>
+            <div class="type-wrap"><span id="typed" style="white-space:pre;"></span></div>
+
             <div class="floating-block--team" id="blockContact">
                 <h2>Samenwerken met ons?</h2>
                 <p>hello[at]designosource.be</p>
@@ -14,8 +17,7 @@
         </div>
     </div>
 
-        <div class="quoteFixed"><h2>We deliver eggceptional work</h2></div>
-        <div class="type-wrap"><span id="typed" style="white-space:pre;"></span></div>
+
 </div>
     <div class="contactInfoBlock">
         <div class="contactInfo">
