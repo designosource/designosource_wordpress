@@ -175,7 +175,7 @@ nav ul li a {
   -o-transform: translateY(0);
   transform: translateY(0);
   background-color: #22242a;
-  z-index: 2;
+  z-index: 999;
   position: fixed;
   flex-direction: column;
   display: flex;

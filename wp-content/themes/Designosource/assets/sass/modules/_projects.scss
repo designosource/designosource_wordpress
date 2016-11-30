@@ -130,7 +130,6 @@
 {
   padding: 0 45px;
   display: block;
-  margin-left:auto;
   margin-right: auto;
 }
 
@@ -163,12 +162,9 @@
 {
   font-family: "Lato", sans-serif;
   color: white;
-  padding-left: 5%;
-  padding-right: 5%;
   line-height: 24px;
   display: block;
   opacity: 0.8;
-  text-align: center;
   max-width: 350px;
   margin: -15px auto 30px auto;
 }
@@ -206,7 +202,7 @@
   margin-right: 20%;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .fp-tableCell > p
   {
     padding-top: 25px;
@@ -220,17 +216,22 @@
   .wrap-panel-content
   {
     position: absolute;
-    bottom: 0;
+    bottom: 60px;
     left: 0;
-    margin-bottom: 60px;
-    margin-left: 75px;
     z-index: 99;
+    width: 90%;
   }
 
-  .wrap-panel-content > p{
-    max-width: 350px;
-    margin-left: 0;
-    padding-left: 0;
-    text-align: left;
+  .wrap-buttons
+  {
+    display: block;
+    width: 100%;
   }
+
+  .btn-case
+  {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
 }

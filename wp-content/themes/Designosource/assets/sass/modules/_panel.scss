@@ -110,6 +110,27 @@ h1 {
     text-decoration: none;
 }
 
+@media screen and (max-width: 768px){
+    .top__content .wrap-buttons
+    {
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+
+    .btn-case
+    {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .top__title
+    {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+}
+
 .btn-case {
     font-family: Lato;
     text-transform: uppercase;
