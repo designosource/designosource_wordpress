@@ -24,6 +24,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/yaron.jpg" alt="Profielfoto Yaron">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Yaron</div>
                         <div class="tilter__title2">Dassonneville</div>
@@ -41,8 +42,9 @@
             </div>
             <div class="tilter tilter--1">
                 <figure class="tilter__figure">
-                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/lisa.jpg" alt="Profielfoto Lisa">
+                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/LISA.png" alt="Profielfoto Lisa">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Lisa</div>
                         <div class="tilter__title2">Debontridder</div>
@@ -59,8 +61,9 @@
             </div>
             <div class="tilter tilter--1">
                 <figure class="tilter__figure">
-                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/william.jpg" alt="Profielfoto William">
+                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/WILLIAM.png" alt="Profielfoto William">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">William</div>
                         <div class="tilter__title2">Verbiest</div>
@@ -80,6 +83,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/damon.jpg" alt="Profielfoto Damon">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Damon</div>
                         <div class="tilter__title2">Baesen</div>
@@ -99,6 +103,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/ben.jpg" alt="Profielfoto Ben">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Ben</div>
                         <div class="tilter__title2">Witters</div>
@@ -118,6 +123,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/ditte.jpg" alt="Profielfoto Ditte">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Ditte</div>
                         <div class="tilter__title2">Van Lishout</div>
@@ -137,6 +143,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/stephanie.jpg" alt="Profielfoto Stephanie">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Stephanie</div>
                         <div class="tilter__title2">Willekens</div>
@@ -156,6 +163,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/nicky.jpg" alt="Profielfoto Nicky">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Nicky</div>
                         <div class="tilter__title2">Somers</div>
@@ -175,6 +183,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/arno.jpg" alt="Profielfoto Arno">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Arno</div>
                         <div class="tilter__title2">De Decker</div>
@@ -194,6 +203,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/diederik.jpg" alt="Profielfoto Diederik">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Diederik</div>
                         <div class="tilter__title2">Craps</div>
@@ -213,6 +223,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/robin.jpg" alt="Profielfoto Robin">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Robin</div>
                         <div class="tilter__title2">Reyns</div>
@@ -232,6 +243,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/brent.jpg" alt="Profielfoto Brent">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Brent</div>
                         <div class="tilter__title2">Schuddinck</div>
@@ -251,6 +263,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/nadine.jpg" alt="Profielfoto Nadine">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Nadine</div>
                         <div class="tilter__title2">Vanesch</div>
@@ -269,6 +282,7 @@
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/robby.jpg" alt="Profielfoto Robby">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Robby</div>
                         <div class="tilter__title2">Vanelderen</div>
@@ -285,8 +299,10 @@
             </div>
             <div class="tilter tilter--1">
                 <figure class="tilter__figure">
-                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/david.jpg" alt="Profielfoto David">
+
+                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/DAVID.png" alt="Profielfoto David">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
+                    <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">David</div>
                         <div class="tilter__title2">Heerinckx</div>
@@ -306,7 +322,7 @@
 </div>
 
 <footer class="footer">
-    <img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Designosource Logo" class="footer__logo">
+    <a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Designosource Logo" class="footer__logo"></a>
     <div class="footer__email"><a href="mailto:hello@designosource.be">hello[at]designosource.be</a></div>
     <a href="http://thomasmore.be" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/public/img/tm-logo.png" alt="Thomas More Logo" class="footer__tm-logo"></a>
 </footer>
@@ -322,15 +338,21 @@
       window.scrollTo(0, 0);
     }
 
-    $(document).ready(function(){
+    $("html, body").addClass("noscroll");
 
+    $(document).ready(function(){
         TweenMax.to($(".top__bg"), 1, {opacity: 1, delay: 0.1});
         TweenMax.to($(".top__first-headline"), 0.3, {x: 0, opacity: 1, delay: 1});
         TweenMax.to($(".top__second-headline"), 0.3, {x: 0, opacity: 1, delay: 1.4});
+
+        if($(window).width() >= 768){
+            TweenMax.to($(".floating-block--team"), 0.3, {bottom: "-170px", opacity: 1, delay: 1.7});
+        }
+        
         TweenMax.to($(".top"), 0.5, {height: "90vh", delay: 1.8});
         setTimeout(function(){
-            $(".workflow").css("overflow", "auto");
-        }, 2100);     
+            $("html, body").removeClass("noscroll");
+        }, 2500);     
     });
     
     (function() {

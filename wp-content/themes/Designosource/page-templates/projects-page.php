@@ -13,6 +13,7 @@
 <?php while (have_posts()) : the_post(); ?>
 
     <?php if(get_field("featured")): ?>
+
     <div class="section">
 
         <div class="wrap-back" style="background-image: url(<?php the_field("background"); ?>)">
@@ -50,5 +51,6 @@
    
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 
 <?php get_footer(); ?>

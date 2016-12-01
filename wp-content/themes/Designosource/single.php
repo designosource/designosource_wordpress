@@ -114,9 +114,9 @@
 </div>
 
 <footer class="footer">
-    <div class="wrapper">
-        <img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Logo" class="footer__logo">
-    </div>
+    <a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Designosource Logo" class="footer__logo"></a>
+    <div class="footer__email"><a href="mailto:hello@designosource.be">hello[at]designosource.be</a></div>
+    <a href="http://thomasmore.be" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/public/img/tm-logo.png" alt="Thomas More Logo" class="footer__tm-logo"></a>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -137,14 +137,16 @@
       window.scrollTo(0, 0);
     }
 
+    $("html, body").addClass("noscroll");
+
     $(document).ready(function(){
         TweenMax.to($(".top__bg"), 1, {opacity: 1, delay: 0.1});
         TweenMax.to($(".top__first-headline"), 0.3, {x: 0, opacity: 1, delay: 1});
         TweenMax.to($(".top__second-headline"), 0.3, {x: 0, opacity: 1, delay: 1.4});
         TweenMax.to($(".top"), 0.5, {height: "90vh", delay: 1.8});
         setTimeout(function(){
-            $(".workflow").css("overflow", "auto");
-        }, 2100);     
+            $("html, body").removeClass("noscroll");
+        }, 2500);     
     });
 
     (function () {
