@@ -3,17 +3,12 @@
 
     get_header(); 
 ?>
-
-<div class="top">
-    <h1><span class="top__first-headline">Het team</span><span class="top__second-headline">Wij zijn Designosource</span></h1>
-    <div class="top__bg"></div>
-</div>
-<div class="first-block">
-    <div class="first-block__content">
-        <div class="floating-block--team">
-            <h2 class="block-title block-title--white">Over ons</h2>
-            <p class="block-text block-text--white">Wij zijn 12 studenten die deel uitmaken van Designosource, een practise enterprise op Thomas More Mechelen. We houden ons vooral bezig met het bouwen van websites, apps en ook branding.</p>
-        </div>
+<div class="top scene_element scene_element--slideToVp">
+    <h1><span class="top__first-headline scene_element--fadeOutLeft">Het team</span><span class="top__second-headline scene_element--fadeOutLeft scene_element--delayed">Wij zijn Designosource</span></h1>
+    <div class="top__bg scene_element scene_element--fadeOutDown"></div>
+    <div class="floating-block--team scene_element--fadeOutDown">
+        <h2 class="block-title block-title--white">Over ons</h2>
+        <p class="block-text block-text--white">Wij zijn 12 studenten die deel uitmaken van Designosource, een practise enterprise op Thomas More Mechelen. We houden ons vooral bezig met het bouwen van websites, apps en ook branding.</p>
     </div>
 </div>
 

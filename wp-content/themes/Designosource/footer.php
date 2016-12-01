@@ -1,6 +1,8 @@
+</div>
 
     <!-- <div class="loading"></div> -->
     <script src="<?php echo get_template_directory_uri(); ?>/public/js/jquery.shuffleLetters.js"></script>
+     <script src="<?php echo get_template_directory_uri(); ?>/public/js/jquery.smoothstate.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/public/js/script.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/public/js/jquery.fullPage.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>

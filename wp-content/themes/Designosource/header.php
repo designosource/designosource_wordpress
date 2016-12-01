@@ -96,6 +96,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<div class="m-scene" id="main">
     <header class="header">
         <div class="logo"><a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Logo Designosource"></a></div>
         <a class="hamburger-menu"><span class="hamburger-menu-icon"></span></a>

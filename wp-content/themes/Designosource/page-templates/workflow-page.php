@@ -3,10 +3,9 @@
 
     get_header(); 
 ?>
-
-<div class="top">
-    <h1><span class="top__first-headline">Dit is onze</span><span class="top__second-headline">werkwijze</span></h1>
-    <div class="top__bg"></div>
+<div class="top scene_element scene_element--slideToVp">
+    <h1><span class="top__first-headline scene_element--fadeOutLeft">Dit is onze</span><span class="top__second-headline scene_element--fadeOutLeft scene_element--delayed">werkwijze</span></h1>
+    <div class="top__bg scene_element scene_element--fadeOutDown"></div>
 </div>
 <div class="first-block">
     <div class="first-block__content">
@@ -53,6 +52,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/public/js/jquery.smoothState.js"></script>
 <script>
 
     window.onbeforeunload = function () {
@@ -69,6 +69,8 @@
             $("html, body").removeClass("noscroll");
         }, 2500);     
     });
+
+
 
 </script>
 
