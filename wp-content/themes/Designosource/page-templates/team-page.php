@@ -20,7 +20,7 @@
 <div class="wrap-team">
     <main class="smooth">
         <section class="content">
-            <a class="tilter tilter--1">
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/yaron.jpg" alt="Profielfoto Yaron">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -29,7 +29,7 @@
                         <div class="tilter__title2">Dassonneville</div>
                         <div class="tilter__description">Javascript Monkey</div>
                         <div class="social">
-                            <div class="in"></div>
+                            <a href="#"><div class="in"></div></a>
                             <div class="t"></div>
                             <div class="f"></div>
                         </div>
@@ -38,8 +38,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/lisa.jpg" alt="Profielfoto Lisa">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -57,8 +57,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/william.jpg" alt="Profielfoto William">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -76,8 +76,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/damon.jpg" alt="Profielfoto Damon">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -95,8 +95,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/ben.jpg" alt="Profielfoto Ben">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -114,8 +114,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/ditte.jpg" alt="Profielfoto Ditte">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -133,8 +133,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/stephanie.jpg" alt="Profielfoto Stephanie">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -152,8 +152,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/nicky.jpg" alt="Profielfoto Nicky">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -171,8 +171,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/arno.jpg" alt="Profielfoto Arno">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -190,8 +190,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/diederik.jpg" alt="Profielfoto Diederik">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -209,8 +209,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/robin.jpg" alt="Profielfoto Robin">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -228,8 +228,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/brent.jpg" alt="Profielfoto Brent">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -247,8 +247,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/nadine.jpg" alt="Profielfoto Nadine">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -266,8 +266,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/robby.jpg" alt="Profielfoto Robby">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -285,8 +285,8 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
-            <a class="tilter tilter--1">
+            </div>
+            <div class="tilter tilter--1">
                 <figure class="tilter__figure">
                     <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/david.jpg" alt="Profielfoto David">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -304,7 +304,7 @@
                         <path d="M20.5,20.5h260v375h-260V20.5z" />
                     </svg>
                 </figure>
-            </a>
+            </div>
         </section>
     </main>
 </div>
@@ -743,7 +743,7 @@
 
         function init() {
             var idx = 0;
-            [].slice.call(document.querySelectorAll('a.tilter')).forEach(function(el, pos) { 
+            [].slice.call(document.querySelectorAll('div.tilter')).forEach(function(el, pos) { 
                 idx = idx;
                 new TiltFx(el, tiltSettings[idx]);
             });
