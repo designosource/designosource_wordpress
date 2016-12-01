@@ -21,6 +21,7 @@
 	display: block;
 	margin: 0 auto;
 	position: relative;
+  max-width: 1600px;
 }
 
 .content 
@@ -40,7 +41,7 @@
     position: relative;
     width: 300px;
     height: 415px;
-    margin: 1.5em 2.5em;
+    margin: 1%;
     color: #fff;
     flex: none;
     perspective: 1000px;
@@ -59,23 +60,32 @@
     margin: 0;
     width: 100%;
     height: 100%;
-    // object-fit: cover;
+    object-fit: cover;
     display: block;
 }
 
-.tilter__deco--overlay{
+.tilter__overlay{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: gray;
+  background: rgba(0,0,0,0);
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,1)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+  opacity: 0.4;
 }
 
 .tilter__figure > * 
 {
     transform: translateZ(0px); /* Force correct stacking order */
 }
+
 
 .smooth .tilter__figure,
 .smooth .tilter__deco--overlay,
@@ -149,7 +159,7 @@
     font-size: 2em;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: #fff;
+    color: $green;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     margin-bottom: 3px;

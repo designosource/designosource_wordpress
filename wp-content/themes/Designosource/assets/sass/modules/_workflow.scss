@@ -260,6 +260,21 @@
     align-items: center;
 }
 
+.footer a
+{
+	color: white;
+	opacity: 0.8;
+	transition: all 0.2s ease-in-out;
+	text-decoration: none;
+}
+
+.footer a:hover
+{
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
+	text-decoration: underline;
+}
+
 .footer__logo
 {
 	height: 20px;
@@ -308,7 +323,7 @@
 
 	.top__second-headline
 	{
-		font-size: 2.4rem;
+		font-size: 2.0rem;
 		margin-left: 50px;
 	}
 
