@@ -114,9 +114,9 @@
 </div>
 
 <footer class="footer">
-    <div class="wrapper">
-        <img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Logo" class="footer__logo">
-    </div>
+    <a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Designosource Logo" class="footer__logo"></a>
+    <div class="footer__email"><a href="mailto:hello@designosource.be">hello[at]designosource.be</a></div>
+    <a href="http://thomasmore.be" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/public/img/tm-logo.png" alt="Thomas More Logo" class="footer__tm-logo"></a>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
