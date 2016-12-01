@@ -27,6 +27,7 @@ $(document).ready(function(){
         }
     });
 
+
     var header = $('.top__bg');
     var range = 300;
 
@@ -47,7 +48,6 @@ $(document).ready(function(){
         }
       
     });
-
     
 
 });

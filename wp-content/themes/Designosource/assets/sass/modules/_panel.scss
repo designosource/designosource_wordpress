@@ -1,10 +1,15 @@
-#fp-nav
+.homeHidden
 {
     display: none;
 }
 
 #backgroundHome {
     background-image: url("../img/bg.png");
+}
+
+#linkHomeSecond
+{
+    margin-left: 20px;
 }
 
 #backgroundProject {
@@ -291,5 +296,4 @@ h1 {
     {
         width: 150px;
     }
-
 }

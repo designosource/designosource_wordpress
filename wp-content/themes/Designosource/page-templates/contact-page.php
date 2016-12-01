@@ -3,7 +3,7 @@
 
     get_header();
 ?>
-
+<div class="containerContact">
     <div class="contactContainer">
     <div class="first-block" id="blockFirst">
         <div class="first-block__content">
@@ -28,6 +28,9 @@
             <p>hello[at]designosource.be</p>
         </div>
     </div>
+
+</div>
+
     
 <footer class="footer">
     <div class="wrapper">
