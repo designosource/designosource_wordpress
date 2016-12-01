@@ -1,18 +1,3 @@
-
-.floating-block--team{
-  width: 80%;
-  position: absolute;
-  bottom: -210px;
-  right: 20px;
-  padding: 20px 30px;
-  background-color: $purple;
-  -webkit-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
-  box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
-  box-sizing: border-box;
-  overflow: hidden;
-  z-index: 500;
-}
 *, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .wrap-team
@@ -26,7 +11,8 @@
 
 .content 
 {
-    padding: 10em 0 4em 0;
+    padding-top: 30px;
+    padding-bottom: 100px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +27,7 @@
     position: relative;
     width: 300px;
     height: 415px;
-    margin: 1%;
+    margin: 30px;
     color: #fff;
     flex: none;
     perspective: 1000px;
@@ -236,11 +222,11 @@
 
 .floating-block--team
 {
-    width: 80%;
+    width: 90%;
     position: absolute;
-    bottom: -210px;
-    right: 20px;
-    padding: 20px 30px;
+    bottom: 0;
+    right: 5%;
+    padding: 30px 40px;
     background-color: $purple;
     -webkit-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
@@ -256,9 +242,20 @@
     {
         width: 550px;
         position: absolute;
-        bottom: -170px;
+        bottom: -570px;
         right: 110px;
         padding: 70px 70px;
         background-color: $purple;
+        opacity: 0;
+    }
+
+    .content
+    {
+      padding-top: 100px;
+    }
+
+    .tilter 
+    {
+      margin: 1%;
     }
 }
