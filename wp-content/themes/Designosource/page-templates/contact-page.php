@@ -16,16 +16,17 @@
 
         <div class="quoteFixed"><h2>We deliver eggceptional work</h2></div>
         <div class="type-wrap"><span id="typed" style="white-space:pre;"></span></div>
-</div>
-    <div class="contactInfoBlock">
-        <div class="contactInfo">
-            <h2>Waar kan je ons vinden?</h2>
-            <p>Lange ridderstraat 44</p>
-            <p>2800 Mechelen</p>
-            <p>Tel. +32 15 36 92 20</p>
-            <p>hello[at]designosource.be</p>
+
+        <div class="contactInfoBlock">
+            <div class="contactInfo">
+                <h2>Waar kan je ons vinden?</h2>
+                <p>Lange ridderstraat 44</p>
+                <p>2800 Mechelen</p>
+                <p>Tel. +32 15 36 92 20</p>
+            </div>
         </div>
-    </div>
+</div>
+
 </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
