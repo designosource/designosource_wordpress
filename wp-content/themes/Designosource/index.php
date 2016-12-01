@@ -7,6 +7,7 @@
                     <h2 class="homeHidden">Truly Eggceptional</h2>
                     <img src="<?php echo get_template_directory_uri(); ?>/public/img/designosource.svg" id="logoDesigno" alt="logo Designosource" title="logo Designosource">
                     <img src="<?php echo get_template_directory_uri(); ?>/public/img/truly-eggceptional.svg" id="logoTruly" alt="logo Truly Eggceptional" title="logo Truly Eggceptional">
+                    <p>Designosource is een practise enterprise met laatstejaarsstudenten uit IMD. Wij zorgen voor een professionele en creatieve aanpak op alle online projecten. Fun, eggceptional en hungry vatten ons samen.</p>
                     <div class="wrap-buttons">
                         <a href="projects"><div class="btn-case btn-case--green">Projecten</div></a>
                         <a href="team.html" id="linkHomeSecond"><div class="btn-case">Team</div></a>
