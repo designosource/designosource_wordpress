@@ -307,8 +307,8 @@
 
 <footer class="footer">
     <img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Designosource Logo" class="footer__logo">
-    <div class="footer__email">hello[at]designosource.be</div>
-    <img src="<?php echo get_template_directory_uri(); ?>/public/img/tm-logo.png" alt="Thomas More Logo" class="footer__tm-logo">
+    <div class="footer__email"><a href="mailto:hello@designosource.be">hello[at]designosource.be</a></div>
+    <a href="http://thomasmore.be" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/public/img/tm-logo.png" alt="Thomas More Logo" class="footer__tm-logo"></a>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
