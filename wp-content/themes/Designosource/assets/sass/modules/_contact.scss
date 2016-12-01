@@ -5,8 +5,7 @@
   background-size: cover;
   position: relative;
   width: 100vw;
-  height: 54vh;
-  min-height: 600px;
+  height: 100vh;
   color: white;
 }
 
@@ -26,18 +25,22 @@
   position: relative;
   height: 30px;
   color: #00FFCA;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.6em;
   line-height: 1.4em;
   font-family: Lato, sans-serif;
-  text-transform: uppercase;
 }
 
 .contactInfoBlock
 {
+<<<<<<< HEAD
   position: relative;
   padding-top: 150px;
   padding-bottom: 150px;
+=======
+  margin-left:auto;
+  margin-right:auto;
+>>>>>>> Damon
 }
 
 .contactInfo
@@ -52,16 +55,20 @@
 
 .contactInfo > h2
 {
-  font-weight: bold;
+  color: #00FFCA;
+  font-weight: 400;
   font-size: 1.4em;
+  font-family: Lato, sans-serif;
 }
 
 .contactInfo > p
 {
+  color: #fff;
   font-weight: 400;
   padding-bottom: -10px;
   display: block;
   margin-bottom: -5px;
+  font-family: Lato, sans-serif;
 }
 
 #blockContact
@@ -73,6 +80,7 @@
   max-width: 768px;
   font-family: Lato, sans-serif;
   z-index: 500;
+  text-align: center;
 }
 
 #blockContact > h2
@@ -110,11 +118,6 @@
     max-height: 100vh;
   }
 
-  .contactContainer
-  {
-    height: 65vh;
-  }
-
   .quoteFixed
   {
     display: none;
@@ -128,14 +131,15 @@
     letter-spacing: 1px;
     font-size: 2.5rem;
     width: 75%;
-    padding-top: 35vh;
+    padding-top: 33vh;
     margin-left: 25%;
   }
 
   #blockContact
   {
     padding-top: 15px;
-    top: 77%;
+    top: 43%;
+    height: 160px;
     max-width: 550px;
     left: 25%;
   }
@@ -162,3 +166,4 @@
 .typed{
   font-family: Lato, sans-serif;
 }
+
