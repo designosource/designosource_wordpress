@@ -28,10 +28,10 @@
                         <div class="tilter__title1">Yaron</div>
                         <div class="tilter__title2">Dassonneville</div>
                         <div class="tilter__description">Javascript Monkey</div>
-                        <div class="social">
-                            <a href="#"><div class="in"></div></a>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/yarondassonneville" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/Y_Dassonneville" target="_blank"><div class="tilter__twitter"></div></a>
+                            <a href="http://www.yarondassonneville.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -47,10 +47,9 @@
                         <div class="tilter__title1">Lisa</div>
                         <div class="tilter__title2">Debontridder</div>
                         <div class="tilter__description">Interaction Design Fairy</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/lisa-debontridder" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="http://www.lisadebontridder.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -66,10 +65,10 @@
                         <div class="tilter__title1">William</div>
                         <div class="tilter__title2">Verbiest</div>
                         <div class="tilter__description">Immersive Design Visionary</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/william-verbiest" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/VerbiestWilliam" target="_blank"><div class="tilter__twitter"></div></a>
+                            <a href="http://www.williamverbiest.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -85,10 +84,10 @@
                         <div class="tilter__title1">Damon</div>
                         <div class="tilter__title2">Baesen</div>
                         <div class="tilter__description">PHP Commander</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/damonbaesen" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/DBaesen" target="_blank"><div class="tilter__twitter"></div></a>
+                            <a href="http://www.damonbaesen.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -104,10 +103,10 @@
                         <div class="tilter__title1">Ben</div>
                         <div class="tilter__title2">Witters</div>
                         <div class="tilter__description">Drupal Ninja</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://be.linkedin.com/in/benwitters" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/BenWttrs" target="_blank"><div class="tilter__twitter"></div></a>
+                            <a href="http://www.benwitters.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -123,10 +122,10 @@
                         <div class="tilter__title1">Ditte</div>
                         <div class="tilter__title2">Van Lishout</div>
                         <div class="tilter__description">Hapiness Guardian</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://be.linkedin.com/in/ditte-van-lishout-0b1511a5" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/dvanlishout" target="_blank"><div class="tilter__twitter"></div></a>
+                            <a href="http://www.dittedesign.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -142,10 +141,10 @@
                         <div class="tilter__title1">Stephanie</div>
                         <div class="tilter__title2">Willekens</div>
                         <div class="tilter__description">High Priestess of Sketching</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://be.linkedin.com/in/stephaniewillekens" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/Steph_Willekens" target="_blank"><div class="tilter__twitter"></div></a>
+                            <a href="http://www.stephaniewillekens.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -161,10 +160,10 @@
                         <div class="tilter__title1">Nicky</div>
                         <div class="tilter__title2">Somers</div>
                         <div class="tilter__description">Wordpress Wizard</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/nickysomers" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/SomersNicky" target="_blank"><div class="tilter__twitter"></div></a>
+                            <a href="http://www.wearestrong.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -180,10 +179,10 @@
                         <div class="tilter__title1">Arno</div>
                         <div class="tilter__title2">De Decker</div>
                         <div class="tilter__description">HTML adventurer</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/arnodedecker" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/ArnoDeDecker6" target="_blank"><div class="tilter__twitter"></div></a>
+                            <a href="http://www.straightup-agency.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -199,10 +198,10 @@
                         <div class="tilter__title1">Diederik</div>
                         <div class="tilter__title2">Craps</div>
                         <div class="tilter__description">Social Media Captain</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/diederikcraps" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/DiederikCraps" target="_blank"><div class="tilter__twitter"></div></a>
+                            <a href="http://www.diederikcraps.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -218,10 +217,10 @@
                         <div class="tilter__title1">Robin</div>
                         <div class="tilter__title2">Reyns</div>
                         <div class="tilter__description">Motion Design Guru</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/robinreyns" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/RobinReyns" target="_blank"><div class="tilter__twitter"></div></a>
+                            <a href="http://www.robinreyns.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -237,10 +236,10 @@
                         <div class="tilter__title1">Brent</div>
                         <div class="tilter__title2">Schuddinck</div>
                         <div class="tilter__description">CMS Maestro</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/brentschuddinck" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/BrentSchuddinck" target="_blank"><div class="tilter__twitter"></div></a>
+                            <a href="https://www.brentschuddinck.be" target="_blank"><div class="tilter__website"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -256,10 +255,9 @@
                         <div class="tilter__title1">Nadine</div>
                         <div class="tilter__title2">Vanesch</div>
                         <div class="tilter__description">Communications Maven</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/nadinevanesch" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/NadineVanesch" target="_blank"><div class="tilter__twitter"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -275,10 +273,9 @@
                         <div class="tilter__title1">Robby</div>
                         <div class="tilter__title2">Vanelderen</div>
                         <div class="tilter__description">Overlord</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/robbyvanelderen" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/robbyvanelderen" target="_blank"><div class="tilter__twitter"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -294,10 +291,9 @@
                         <div class="tilter__title1">David</div>
                         <div class="tilter__title2">Heerinckx</div>
                         <div class="tilter__description">Elaborate Conversationist</div>
-                        <div class="social">
-                            <div class="in"></div>
-                            <div class="t"></div>
-                            <div class="f"></div>
+                        <div class="tilter__social">
+                            <a href="https://www.linkedin.com/in/davidheerinckx" target="_blank"><div class="tilter__linkedin"></div></a>
+                            <a href="https://twitter.com/DavidHeerinckx" target="_blank"><div class="tilter__twitter"></div></a>
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -308,253 +304,6 @@
         </section>
     </main>
 </div>
-       
-<!--<div class="wrapper">
-    <div class="team-block">
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/yaron.jpg" alt="Profielfoto Yaron">
-            <p class="team-member__name">Yaron Dassonneville</p>
-            <p class="team-member__function">Javascript Monkey</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/Y_Dassonneville"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://www.linkedin.com/in/yarondassonneville"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="http://www.yarondassonneville.be/"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/lisa.jpg" alt="Profielfoto Lisa">
-            <p class="team-member__name">Lisa Debontridder</p>
-            <p class="team-member__function">Interaction Design Fairy</p>
-            <ul class="team-member__social">
-                <li class="linkedin">
-                    <a target="_blank" href="https://www.linkedin.com/in/lisa-debontridder"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="http://www.lisadebontridder.be"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/william.jpg" alt="Profielfoto William">
-            <p class="team-member__name">William Verbiest</p>
-            <p class="team-member__function">Immersive Design Visionary</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/VerbiestWilliam"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://www.linkedin.com/in/william-verbiest"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="https://www.williamverbiest.be/"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/damon.jpg" alt="Profielfoto Damon">
-            <p class="team-member__name">Damon Baesen</p>
-            <p class="team-member__function">PHP Commander</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/DBaesen"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://www.linkedin.com/in/damonbaesen"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="http://www.damonbaesen.be/"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/ben.jpg" alt="Profielfoto Ben">
-            <p class="team-member__name">Ben Witters</p>
-            <p class="team-member__function">Drupal Ninja</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/BenWttrs"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://be.linkedin.com/in/benwitters"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="https://www.benwitters.be/"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/ditte.jpg" alt="Profielfoto Ditte">
-            <p class="team-member__name">Ditte Van Lishout</p>
-            <p class="team-member__function">Hapiness Guardian</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/dvanlishout"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://be.linkedin.com/in/ditte-van-lishout-0b1511a5"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="http://www.dittedesign.be"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/stephanie.jpg" alt="Profielfoto Stephanie">
-            <p class="team-member__name">Stephanie Willekens</p>
-            <p class="team-member__function">High Priestess of Sketching</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/Steph_Willekens"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://be.linkedin.com/in/stephaniewillekens"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="http://www.stephaniewillekens.be/"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/nicky.jpg" alt="Profielfoto Nicky">
-            <p class="team-member__name">Nicky Somers</p>
-            <p class="team-member__function">Wordpress Wizard</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/SomersNicky"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://www.linkedin.com/in/nickysomers"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="http://wearestrong.be/"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/arno.jpg" alt="Profielfoto Arno">
-            <p class="team-member__name">Arno De Decker</p>
-            <p class="team-member__function">HTML adventurer</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/ArnoDeDecker6"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://www.linkedin.com/in/arnodedecker"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="http://www.straightup-agency.be/"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/diederik.jpg" alt="Profielfoto Diederik">
-            <p class="team-member__name">Diederik Craps</p>
-            <p class="team-member__function">Social Media Captain</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/DiederikCraps"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://be.linkedin.com/in/diederikcraps"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="http://www.diederikcraps.be/"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/robin.jpg" alt="Profielfoto Robin">
-            <p class="team-member__name">Robin Reyns</p>
-            <p class="team-member__function">Motion Design Guru</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/RobinReyns"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://be.linkedin.com/in/robinreyns"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="http://www.robinreyns.be/"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/brent.jpg" alt="Profielfoto Brent">
-            <p class="team-member__name">Brent Schuddinck</p>
-            <p class="team-member__function">CMS Maestro</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/BrentSchuddinck"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://www.linkedin.com/in/brentschuddinck"></a>
-                </li>
-                <li class="website">
-                    <a target="_blank" href="https://www.brentschuddinck.be/"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/nadine.jpg" alt="Profielfoto Nadine">
-            <p class="team-member__name">Nadine Vanesch</p>
-            <p class="team-member__function">Communications Maven</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/NadineVanesch"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="http://be.linkedin.com/in/nadinevanesch"></a>
-                </li>
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/robby.jpg" alt="Profielfoto Robby">
-            <p class="team-member__name">Robby Vanelderen</p>
-            <p class="team-member__function">Overlord</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/robbyvanelderen"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://www.linkedin.com/in/robbyvanelderen"></a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="team-member">
-            <img class="team-member__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/david.jpg" alt="Profielfoto David">
-            <p class="team-member__name">David Heerinckx</p>
-            <p class="team-member__function">Elaborate Conversationist</p>
-            <ul class="team-member__social">
-                <li class="twitter">
-                    <a target="_blank" href="https://twitter.com/davidheerinckx"></a>
-                </li>
-                <li class="linkedin">
-                    <a target="_blank" href="https://be.linkedin.com/in/davidheerinckx"></a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-</div>-->
 
 <footer class="footer">
     <img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Designosource Logo" class="footer__logo">
@@ -758,10 +507,5 @@
     })();
 
 </script>
-
-        
-		<script>
-		
-		</script>
 
 <?php get_footer(); ?>

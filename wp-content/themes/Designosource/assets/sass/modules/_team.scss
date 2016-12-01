@@ -31,11 +31,6 @@
     perspective: 1000px;
 }
 
-.tilter * 
-{
-    pointer-events: none;
-}
-
 .tilter:hover,
 .tilter:focus 
 {
@@ -120,6 +115,7 @@
     bottom: 0;
     width: 100%;
     padding: 3em;
+    z-index: 99;
 }
 
 .tilter__title1 
@@ -159,13 +155,12 @@
     margin-bottom: 20px;
 }
 
-.social 
+.tilter__social 
 {
     display: flex;
-    z-index: 99999999;
 }
 
-.in 
+.tilter__linkedin 
 {
     width: 20px;
     height: 20px;
@@ -177,7 +172,7 @@
     cursor: pointer;
 }
 
-.t 
+.tilter__twitter 
 {
     width: 20px;
     height: 20px;
@@ -188,11 +183,11 @@
     margin: 0 15px 0 0;
 }
 
-.f 
+.tilter__website
 {
     width: 20px;
     height: 20px;
-    background-image: url("../img/socialicons/facebook_white.png");
+    background-image: url("../img/socialicons/web_white.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
