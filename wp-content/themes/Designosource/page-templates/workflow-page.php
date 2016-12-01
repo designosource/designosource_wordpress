@@ -57,6 +57,7 @@
     window.onbeforeunload = function () {
       window.scrollTo(0, 0);
     }
+    $("html, body").addClass("noscroll");
 
     $(document).ready(function(){
         TweenMax.to($(".top__bg"), 1, {opacity: 1, delay: 0.1});
@@ -64,8 +65,8 @@
         TweenMax.to($(".top__second-headline"), 0.3, {x: 0, opacity: 1, delay: 1.4});
         TweenMax.to($(".top"), 0.5, {height: "90vh", delay: 1.8});
         setTimeout(function(){
-            $(".workflow").css("overflow", "auto");
-        }, 2100);     
+            $("html, body").removeClass("noscroll");
+        }, 2500);     
     });
 
 </script>
