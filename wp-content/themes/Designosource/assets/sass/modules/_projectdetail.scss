@@ -145,7 +145,28 @@ p
 .project-footer {
     width: 100%;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    background-color: black;
+    background-image: url(../img/bg_blurry.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    flex-wrap: wrap;
+}
+
+.project-footer h2
+{
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .project-footer__subtitle,.project-footer__title {

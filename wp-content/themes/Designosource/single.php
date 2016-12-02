@@ -87,17 +87,19 @@
 
 
 <div class="project-footer">
+    <h2>Ontdek alle andere projecten</h2>
+    <a href="<?php echo site_url();?>/projecten" class="btn-case">Ontdek</a>
+</div>
+<!-- <div class="project-footer">
     <?php
         $prev_post = get_previous_post();
         if (!empty( $prev_post )): 
     ?>
-      
         <a href="<?php echo get_permalink( $prev_post->ID ); ?>" class="project-footer__prev" style="background-image: url(<?php echo get_field("background", $prev_post->ID); ?>)">
             <span class="project-footer__subtitle">Vorige project</span>
             <span class="project-footer__title"><?php echo $prev_post->post_title; ?></span>
             <div class="project-footer__overlay"></div>
         </a>
-
     <?php endif; ?>
 
     <?php
@@ -113,7 +115,7 @@
     <?php endif; ?>
     
 </div>
-
+ -->
 <footer class="footer">
     <a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Designosource Logo" class="footer__logo"></a>
     <div class="footer__email"><a href="mailto:hello@designosource.be">hello[at]designosource.be</a></div>

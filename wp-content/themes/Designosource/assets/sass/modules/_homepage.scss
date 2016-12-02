@@ -1,0 +1,138 @@
+#homeWrap
+{
+ position: relative;
+ height: 100vh;
+ width: 100vw;
+ background-position: center center;
+ background-size: cover;
+}
+
+#homeContainer
+{
+ background-image: url("../img/homePicture.png");
+ background-position: left center;
+ background-size: cover;
+ width: 100vw;
+ height: 100vh;
+ color: white;
+ display: block;
+ position: absolute;
+}
+
+#logoDesigno
+{
+ width: 300px;
+ position: relative;
+}
+
+#homeMovie
+{
+ display: none;
+}
+
+#homePanelContent
+{
+ bottom: 0;
+ margin-bottom: 20px;
+ z-index: 99;
+ text-align: left;
+ position: relative;
+ height: 120px;
+ margin-top:-60px;
+ top: 50%;
+ width: 300px;
+ margin-left: -150px;
+ left: 50%;
+}
+
+#homeButtons
+{
+ display: flex;
+ position: relative;
+ width: 300px;
+ margin-left: -150px;
+ left: 50%;
+}
+
+#homeButtons a {
+ text-decoration: none;
+}
+
+#homeButtons > a:nth-child(2)
+{
+ margin-left: 13px;
+}
+
+#logoTM
+{
+ width: 150px;
+ bottom: 50px;
+ left: 50%;
+ transform: translateX(-50%);
+ -moz-transform: translateX(-50%);
+ -o-transform: translateX(-50%);
+ -ms-transform: translateX(-50%);
+ -webkit-transform: translateX(-50%);
+ position: relative;
+ cursor: pointer;
+}
+
+@media (min-width: 768px) {
+ .filmpje{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-size: 100% 100%;
+   object-fit: cover;
+   z-index: 3;
+ }
+
+ #homeContainer
+ {
+   background-image: none;
+ }
+
+
+ #homeMovie
+ {
+   display: block;
+ }
+
+ #homePanelContent
+ {
+   width: 550px;
+   margin-left: -275px;
+   left: 50%;
+ }
+
+ #logoDesigno
+ {
+   width: 550px;
+ }
+
+ #homeButtons
+ {
+   margin-top: 15px;
+   text-align: center;
+   width: 400px;
+   left: 67%;
+ }
+
+ #logoTM
+ {
+   width: 150px;
+   bottom: 75px;
+   z-index: 9999;
+   right: 10px;
+   position: absolute;
+   left:auto;
+ }
+
+ #homeButtons > a:nth-child(2)
+ {
+   margin-left: 20px;
+ }
+}

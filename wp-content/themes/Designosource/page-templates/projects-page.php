@@ -17,6 +17,16 @@
     <div class="section">
 
         <div class="wrap-back" style="background-image: url(<?php the_field("background"); ?>)">
+            
+            <?php if(get_field("video_bg")): ?>
+                
+                <video autoplay loop muted data-keepplaying class="top__bg__video">
+                    <source src="<?php the_field("video_bg_file_ogv"); ?>" type='video/ogg'/>
+                    <source src="<?php the_field("video_bg_file_webm"); ?>" type='video/webm' >
+                    <source src="<?php the_field("video_bg_file"); ?>" type='video/mp4'>
+                </video>
+
+            <?php endif; ?>
 
             <div class="wrap-panel-content">
                  <h1><?php the_title(); ?></h1>
@@ -36,7 +46,7 @@
 <?php endif; ?>
 <?php endwhile;?>
 
-     <div class="section">
+<!--      <div class="section">
 
         <div class="wrap-back" style="background-image: url(<?php echo get_template_directory_uri(); ?>/public/img/archive.jpg)">
             <div class="wrap-panel-content">
@@ -47,7 +57,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
    
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -56,6 +66,7 @@
             $('#fullpage').fullpage({
                 navigation: true,
                 easingcss3: "ease-in-out",
+                lazyLoading: true,
                 onLeave: function(index, nextIndex, direction){
                     // Hide arrow on last section
                     if(nextIndex == 4)
@@ -66,6 +77,12 @@
                     {
                         $('.scroll-btn').show();
                     }
+                },
+                afterRender: function () {
+                    $('video').each(function () {
+                        //playing the video
+                        $(this).get(0).play();
+                    });
                 }
             });
 </script>

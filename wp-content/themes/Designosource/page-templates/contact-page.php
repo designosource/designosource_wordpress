@@ -31,18 +31,20 @@
         </div>
         <div class="side">
             <div class="side__heading">
-                <h1 class="side__subtitle">Kom eens</h1>
-                <h1 class="side__title">gezellig langs</h1>
+                <h1 class="side__title">Kom eens langs</h1>
+                <!-- <h1 class="side__title"></h1> -->
+                <div class="floating-block--contact">
+                    <a href="mailto:hello@designosource.be" class="email">hello[at]designosource.be</a>
+                </div>
             </div>
             
-            <div class="floating-block--contact">
-                <a href="mailto:hello@designosource.be" class="email">hello[at]designosource.be</a>
-            </div>
+
             
            
 
             <div class="contact-info">
                 <div>
+                  <a href="mailto:hello@designosource.be" class="email--mobile">hello[at]designosource.be</a>
                     <h2 class="contact-info__title">Waar kan je ons vinden?</h2>
                    <p>Lange Ridderstraat 44</p>
                    <p>2800 Mechelen</p>

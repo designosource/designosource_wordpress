@@ -126,7 +126,7 @@
                         <div class="tilter__social">
                             <a href="https://be.linkedin.com/in/ditte-van-lishout-0b1511a5" target="_blank"><div class="tilter__linkedin"></div></a>
                             <a href="https://twitter.com/dvanlishout" target="_blank"><div class="tilter__twitter"></div></a>
-                            <a href="http://www.dittedesign.be" target="_blank"><div class="tilter__website"></div></a>
+                          
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">

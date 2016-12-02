@@ -237,6 +237,14 @@
     position: absolute;
 }
 
+.top__first-headline {
+    margin-top: 50px;
+}
+
+.floating-block--team{
+    bottom: -100px;
+}
+
 @media(min-width: 768px)
 {
     .floating-block--team
