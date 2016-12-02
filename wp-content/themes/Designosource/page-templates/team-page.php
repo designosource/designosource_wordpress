@@ -8,7 +8,7 @@
     <div class="top__bg scene_element scene_element--fadeOutDown"></div>
     <div class="floating-block--team scene_element--fadeOutDown">
         <h2 class="block-title block-title--white">Over ons</h2>
-        <p class="block-text block-text--white">Wij zijn 12 studenten die deel uitmaken van Designosource, een practise enterprise op Thomas More Mechelen. We houden ons vooral bezig met het bouwen van websites, apps en ook branding.</p>
+        <p class="block-text block-text--white">Ontdek de 15 gemotiveerde, geestdriftige, pixel-perfect, licht gestoorde designers en developers van Designosource.</p>
     </div>
 </div>
 
@@ -122,7 +122,7 @@
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Ditte</div>
                         <div class="tilter__title2">Van Lishout</div>
-                        <div class="tilter__description">Hapiness Guardian</div>
+                        <div class="tilter__description">Happiness Guardian</div>
                         <div class="tilter__social">
                             <a href="https://be.linkedin.com/in/ditte-van-lishout-0b1511a5" target="_blank"><div class="tilter__linkedin"></div></a>
                             <a href="https://twitter.com/dvanlishout" target="_blank"><div class="tilter__twitter"></div></a>
@@ -222,7 +222,7 @@
                     <figcaption class="tilter__caption">
                         <div class="tilter__title1">Robin</div>
                         <div class="tilter__title2">Reyns</div>
-                        <div class="tilter__description">Motion Design Guru</div>
+                        <div class="tilter__description">UI/UX Guru</div>
                         <div class="tilter__social">
                             <a href="https://www.linkedin.com/in/robinreyns" target="_blank"><div class="tilter__linkedin"></div></a>
                             <a href="https://twitter.com/RobinReyns" target="_blank"><div class="tilter__twitter"></div></a>
@@ -349,6 +349,37 @@
             $("html, body").removeClass("noscroll");
         }, 2500);     
     });
+
+//     $(function(){
+//   'use strict';
+//   var $page = $('#main'),
+//       options = {
+//         prefetch: true,
+//         prefetchOn: 'mouseover touchstart',
+//         anchors: 'nav ul li a',
+//         blacklist: '.hamburger-menu',
+//         onStart: {
+//           duration: 1000, // Duration of our animation
+//           render: function ($container) {
+//             // Add your CSS animation reversing class
+//             $container.addClass('is-exiting');
+//             // Restart your animation
+//             smoothState.restartCSSAnimations();
+//           }
+//         },
+//         onReady: {
+//           duration: 0,
+//           render: function ($container, $newContent) {
+//             // Remove your CSS animation reversing class
+//             $container.removeClass('is-exiting');
+//             // Inject the new content
+//             $container.html($newContent);
+//           }
+//         }
+//       },
+//       smoothState = $page.smoothState(options).data('smoothState');
+// });
+
     
     (function() {
         var tiltSettings = [

@@ -10,9 +10,19 @@
 	<?php $date = 2016; ?>
 	<div class="projects-grid">
 		<div class="projects-year">2016</div>
-	    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	    	
 
+		<?php 
+			$args = array(
+				'orderby' => 'date',
+				'order'   => 'DESC',
+				'post_type' => 'project',
+				'year' => $date
+			);
+			$query = new WP_Query( $args );
+		?>
+	    <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+	    	
+			<?php echo get_the_date(); ?>
 	    	<?php if(intval(get_the_date( "Y" )) == $date): ?>
 		    	<a href="<?php the_field("project_url"); ?>" class="projects-grid__col" style="background-image: url(<?php the_field('background'); ?>)">
 		    		<span class="projects-grid__col__text"><?php the_title(); ?></span>
@@ -34,15 +44,16 @@
 			    	</a>
 
 	    	<?php $date = intval(get_the_date( "Y" )); endif; ?>
-    	<?php endwhile; endif; ?>	
+    	<?php endwhile; endif; ?>
+
 	</div>
 
 </div>
 
 <footer class="footer">
-    <div class="wrapper">
-        <img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Logo" class="footer__logo">
-    </div>
+    <a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/public/img/logo.svg" alt="Designosource Logo" class="footer__logo"></a>
+    <div class="footer__email"><a href="mailto:hello@designosource.be">hello[at]designosource.be</a></div>
+    <a href="http://thomasmore.be" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/public/img/tm-logo.png" alt="Thomas More Logo" class="footer__tm-logo"></a>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>

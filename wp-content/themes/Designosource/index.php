@@ -10,7 +10,7 @@
                     <p>Designosource is een practise enterprise met laatstejaarsstudenten uit IMD. Wij zorgen voor een professionele en creatieve aanpak op alle online projecten. Fun, eggceptional en hungry vatten ons samen.</p>
                     <div class="wrap-buttons">
                         <a href="projects"><div class="btn-case btn-case--green">Projecten</div></a>
-                        <a href="team.html" id="linkHomeSecond"><div class="btn-case">Team</div></a>
+                        <a href="team.html"><div class="btn-case">Team</div></a>
                     </div>
                 </div>
             </div>

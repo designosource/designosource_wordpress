@@ -75,12 +75,6 @@
         <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/public/img/bg.png"/>
     <?php endif; ?>
 
-        
-
-
-
-        
-
 
     <script>
         (function(h,o,t,j,a,r){

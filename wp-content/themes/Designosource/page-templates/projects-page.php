@@ -30,6 +30,7 @@
                     <?php endif; ?>
                 </div>
             </div>
+
         </div>
     </div>
 <?php endif; ?>
@@ -38,7 +39,6 @@
      <div class="section">
 
         <div class="wrap-back" style="background-image: url(<?php echo get_template_directory_uri(); ?>/public/img/archive.jpg)">
-            <div class="overlay"></div>
             <div class="wrap-panel-content">
                  <h1>Nostalgie?</h1>
                  <p>Ontdek alle vorige Designosource generaties.</p>
@@ -51,6 +51,23 @@
    
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
+<script src="<?php echo get_template_directory_uri(); ?>/public/js/jquery.fullPage.min.js"></script>
+<script>    
+            $('#fullpage').fullpage({
+                navigation: true,
+                easingcss3: "ease-in-out",
+                onLeave: function(index, nextIndex, direction){
+                    // Hide arrow on last section
+                    if(nextIndex == 4)
+                    {
+                        $('.scroll-btn').hide();
+                    }
+                    else
+                    {
+                        $('.scroll-btn').show();
+                    }
+                }
+            });
+</script>
 
 <?php get_footer(); ?>

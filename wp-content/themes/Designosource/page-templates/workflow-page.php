@@ -52,7 +52,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/public/js/jquery.smoothState.js"></script>
+
 <script>
 
     window.onbeforeunload = function () {
@@ -70,6 +70,35 @@
         }, 2500);     
     });
 
+// $(function(){
+//   'use strict';
+//   var $page = $('#main'),
+//       options = {
+//         prefetch: true,
+//         prefetchOn: 'mouseover touchstart',
+//         anchors: 'nav ul li a',
+//         blacklist: '.hamburger-menu',
+//         onStart: {
+//           duration: 1000, // Duration of our animation
+//           render: function ($container) {
+//             // Add your CSS animation reversing class
+//             $container.addClass('is-exiting');
+//             // Restart your animation
+//             smoothState.restartCSSAnimations();
+//           }
+//         },
+//         onReady: {
+//           duration: 0,
+//           render: function ($container, $newContent) {
+//             // Remove your CSS animation reversing class
+//             $container.removeClass('is-exiting');
+//             // Inject the new content
+//             $container.html($newContent);
+//           }
+//         }
+//       },
+//       smoothState = $page.smoothState(options).data('smoothState');
+// });
 
 
 </script>

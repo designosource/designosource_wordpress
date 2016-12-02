@@ -9,14 +9,16 @@
             <h1 class="top__title"><?php the_title(); ?></h1>
             <div class="wrap-buttons">
                 <a href="<?php echo site_url(); ?>/projecten" class="btn-case btn-case--green">Alle projecten</a>
-                <a href="<?php the_field("project_url"); ?>" class="btn-case">Bekijk project</a>    
+                    <?php if(!empty(get_field("project_url"))): ?>
+                    <a href="http://<?php the_field("project_url"); ?>"><div class="btn-case btn-website">Website</div></a>
+                    <?php endif; ?>  
             </div>
         </div>        
     </div>
     <div class="top__bg" style="background-image: url(<?php the_field("background"); ?>)">
         <?php if(get_field("video_bg")): ?>
             <video autoplay loop muted class="top__bg__video">
-                <source src="<?php the_field("video_bg_file_ogv"); ?>" type='video/ogg; codecs="theora, vorbis"'/>
+                <source src="<?php the_field("video_bg_file_ogv"); ?>" type='video/ogg'/>
                 <source src="<?php the_field("video_bg_file_webm"); ?>" type='video/webm' >
                 <source src="<?php the_field("video_bg_file"); ?>" type='video/mp4'>
             </video>
@@ -24,7 +26,6 @@
         <?php endif; ?>
         <div class="top__bg--blur" style="background-image: url(<?php the_field("background"); ?>)"></div>
     </div>
-    <div class="overlay"></div>
 </div>
 
 <div class="wrapper">

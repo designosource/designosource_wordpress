@@ -222,6 +222,11 @@
     width: 90%;
   }
 
+  .wrap-panel-content h1
+  {
+    font-size: 1.4rem;
+  }
+
   .wrap-buttons
   {
     display: block;
@@ -241,6 +246,8 @@
     margin-left: 0;
     padding-left: 0;
     text-align: left;
+    font-size: 0.8rem;
+    margin-bottom: 0;
   }
 
 }
