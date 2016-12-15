@@ -5,7 +5,7 @@
 ?>
 <div class="top scene_element scene_element--slideToVp">
     <h1><span class="top__first-headline scene_element--fadeOutLeft">Het team</span><span class="top__second-headline scene_element--fadeOutLeft scene_element--delayed">Wij zijn Designosource</span></h1>
-    <div class="top__bg scene_element scene_element--fadeOutDown"></div>
+    <div class="top__bg scene_element scene_element--fadeOutDown" id="top__bgTeam"></div>
     <div class="floating-block--team scene_element--fadeOutDown">
         <h2 class="block-title block-title--white">Over ons</h2>
         <p class="block-text block-text--white">Ontdek de 15 gemotiveerde, geestdriftige, pixel-perfect, licht gestoorde designers en developers van Designosource.</p>
@@ -37,7 +37,7 @@
             </div>
             <div class="tilter tilter--1">
                 <figure class="tilter__figure">
-                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/LISA.png" alt="Profielfoto Lisa">
+                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/lisa.jpg" alt="Profielfoto Lisa">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
                     <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
@@ -56,7 +56,7 @@
             </div>
             <div class="tilter tilter--1">
                 <figure class="tilter__figure">
-                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/WILLIAM.png" alt="Profielfoto William">
+                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/william.jpg" alt="Profielfoto William">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
                     <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">
@@ -126,7 +126,7 @@
                         <div class="tilter__social">
                             <a href="https://be.linkedin.com/in/ditte-van-lishout-0b1511a5" target="_blank"><div class="tilter__linkedin"></div></a>
                             <a href="https://twitter.com/dvanlishout" target="_blank"><div class="tilter__twitter"></div></a>
-                          
+                            
                         </div>
                     </figcaption>
                     <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
@@ -295,7 +295,7 @@
             <div class="tilter tilter--1">
                 <figure class="tilter__figure">
 
-                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/DAVID.png" alt="Profielfoto David">
+                    <img class="tilter__image" src="<?php echo get_template_directory_uri(); ?>/public/img/team/david.jpg" alt="Profielfoto David">
                     <div class="tilter__deco tilter__deco--shine"><div></div></div>
                     <div class="tilter__overlay"></div>
                     <figcaption class="tilter__caption">

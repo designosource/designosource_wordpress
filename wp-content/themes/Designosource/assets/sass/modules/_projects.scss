@@ -150,14 +150,15 @@
 
 .wrap-panel-content
 {
-  position: absolute;
-  bottom: 70px;
-  left: 0;
-  margin-bottom: 20px;
-  margin-left: 5%;
-  z-index: 99;
+ position: absolute;
+ bottom: 70px;
+ left: 0;
+ margin-bottom: 20px;
+ margin-left: 5%;
+ z-index: 99;
+ margin-bottom: -25vh;
+ opacity: 0;
 }
-
 .wrap-panel-content > p
 {
   font-family: "Lato", sans-serif;

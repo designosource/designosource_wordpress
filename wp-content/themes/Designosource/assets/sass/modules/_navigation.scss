@@ -352,8 +352,22 @@ nav ul li a {
   .navigation{
     margin-top: 50px;
     height: 100%;
+    z-index: 500;
   }
   .logo{
     margin-top: -48vh;
   }
+
+  .header, .logo, .logo img{
+    z-index: 800;
+  }
+
+  .ie-fix{
+    z-index: 999;
+}
+
+#homeButtons{
+    z-index: 999;
+}
+
 }

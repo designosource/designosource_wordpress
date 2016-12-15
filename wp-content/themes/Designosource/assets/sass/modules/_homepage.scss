@@ -5,11 +5,12 @@
  width: 100vw;
  background-position: center center;
  background-size: cover;
+ z-index: 999;
 }
 
 #homeContainer
 {
- background-image: url("../img/homePicture.png");
+ background-image: url("../img/homePicture.jpg");
  background-position: left center;
  background-size: cover;
  width: 100vw;
@@ -43,6 +44,7 @@
  width: 300px;
  margin-left: -150px;
  left: 50%;
+ z-index: 999;
 }
 
 #homeButtons
@@ -106,6 +108,7 @@
    width: 550px;
    margin-left: -275px;
    left: 50%;
+    z-index: 999;
  }
 
  #logoDesigno

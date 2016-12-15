@@ -27,11 +27,11 @@
 <div class="third-block">
     <div class="floating-block--purple">
         <h2 class="block-title block-title--white">4. Testing</h2>
-        <p class="block-text block-text--white">Compatibiliteit van het product is van groot belang. Dit wil zeggen dat we uw product testen op alle nodige toestellen. Daarom zit compatibility testing inbegrepen in de prijs. Met deze belangrijke service kunnen we je verzekeren dat het product functioneel klaar is voor lancering.</p>
+        <p class="block-text block-text--white">Compatibiliteit van het product is van groot belang. Dit wil zeggen dat we jouw product testen op alle nodige toestellen. Daarom zit compatibility testing inbegrepen in de prijs. Met deze belangrijke service kunnen we je verzekeren dat het product functioneel klaar is voor lancering.</p>
     </div>
     <div class="third-block__content">
         <h2 class="block-title block-title--white">3. Ontwikkeling</h2>
-        <p class="block-text block-text--white">Tijd voor het echte werk! Coden, coden, coden. In deze fase schrijven we de functionaliteiten uit.Uiteraard kiezen wij steeds voor de nieuwste technologieën en trends, die het best bij jouw project passen.</p>
+        <p class="block-text block-text--white">Tijd voor het echte werk! Coden, coden, coden. In deze fase schrijven we de functionaliteiten uit. Uiteraard kiezen wij steeds voor de nieuwste technologieën en trends, die het best bij jouw project passen.</p>
     </div>
 </div>
 <div class="fourth-block">
@@ -102,5 +102,4 @@
 
 
 </script>
-
 <?php get_footer(); ?>

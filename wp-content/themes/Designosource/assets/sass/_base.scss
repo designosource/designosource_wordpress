@@ -47,3 +47,7 @@ $gray: #C9CDD3;
 		position: fixed;
 	}
 }
+
+*, .first-block__content, .floating-block, .floating-block--contact, .floating-block--purple, .floating-block--team, .fourth-block__content, .project-photos__floating, .side, .third-block__content, ::after, ::before{
+    z-index: 998;
+}

@@ -1,55 +1,328 @@
-*, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+// *, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+// .wrap-team
+// {
+// 	width: 80%;
+// 	display: block;
+// 	margin: 0 auto;
+// 	position: relative;
+//   max-width: 1600px;
+// }
+
+// .content 
+// {
+//     padding-top: 70px;
+//     padding-bottom: 100px;
+//     height: auto;
+//     display: flex;
+//     flex-wrap: wrap;
+//     align-items: center;
+//     justify-content: center;
+//     position: relative;
+// }
+
+// .tilter 
+// {
+//     display: block;
+//     position: relative;
+//     width: 300px;
+//     height: 415px;
+//     margin: 30px;
+//     color: #fff;
+//     flex: none;
+//     perspective: 1000px;
+// }
+
+// .tilter:hover,
+// .tilter:focus 
+// {
+//     color: #fff;
+//     outline: none;
+// }
+
+// .tilter__figure,
+// .tilter__image 
+// {
+//     margin: 0;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//     display: block;
+// }
+
+// .tilter__overlay{
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background: rgba(0,0,0,0);
+//   background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+//   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,1)));
+//   background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+//   background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+//   background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+//   background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+//   opacity: 0.4;
+// }
+
+// .tilter__figure > * 
+// {
+//     transform: translateZ(0px); /* Force correct stacking order */
+// }
+
+
+// .smooth .tilter__figure,
+// .smooth .tilter__deco--overlay,
+// .smooth .tilter__deco--lines,
+// .smooth .tilter__deco--shine div,
+// .smooth .tilter__caption 
+// {
+//     transition: transform 0.2s ease-out;
+// }
+
+// .tilter__figure 
+// {
+//     position: relative;
+// }
+
+// .tilter__figure::before 
+// {
+//     content: '';
+//     position: absolute;
+//     width: 90%;
+//     height: 90%;
+//     top: 5%;
+//     left: 5%;
+//     box-shadow: 0 30px 20px rgba(35,32,39,0.5);
+// }
+
+// .tilter__deco 
+// {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     overflow: hidden;
+// }
+
+// .tilter__deco--overlay 
+// {
+//     background-image: linear-gradient(45deg, rgba(226, 60, 99, 0.4), rgba(145, 58, 252, 0.4), rgba(16, 11, 192, 0.4));
+// }
+
+// .tilter__deco--shine div 
+// {
+//     position: absolute;
+//     width: 200%;
+//     height: 200%;
+//     top: -50%;
+//     left: -50%;
+//     background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.25) 50%, transparent 100%);
+// }
+
+// .tilter__deco--lines 
+// {
+//     fill: none;
+//     stroke: #fff;
+//     stroke-width: 1.5px;
+// }
+
+// .tilter__caption 
+// {
+//     position: absolute;
+//     bottom: 0;
+//     width: 100%;
+//     padding: 3em;
+//     z-index: 99;
+// }
+
+// .tilter__title1 
+// {
+//     margin: 0;
+//     font-size: 2em;
+//     font-family: 'Lato', sans-serif;
+//     font-weight: 700;
+//     color: $green;
+//     letter-spacing: 0.2em;
+//     text-transform: uppercase;
+//     margin-bottom: 3px;
+// }
+
+// .tilter__title2 
+// {
+//     margin: 0;
+//     font-size: 1em;
+//     font-family: 'Lato', sans-serif;
+//     font-weight: 700;
+//     color: #fff;
+//     letter-spacing: 0.2em;
+//     text-transform: uppercase;
+//     margin-bottom: 20px;
+// }
+
+// .tilter__description 
+// {
+//     margin: 1em 0 0 0;
+//     font-size: 0.7em;
+//     font-family: 'Lato', sans-serif;
+//     font-weight: 300;
+//     color: #fff;
+//     letter-spacing: 0.2em;
+//     line-height: 1.4em;
+//     text-transform: uppercase;
+//     margin-bottom: 20px;
+// }
+
+// .tilter__social 
+// {
+//     display: flex;
+// }
+
+// .tilter__linkedin 
+// {
+//     width: 20px;
+//     height: 20px;
+//     background-image: url("../img/socialicons/linkedin2_white.png");
+//     background-size: contain;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     margin: 0 15px 0 0;
+//     cursor: pointer;
+// }
+
+// .tilter__twitter 
+// {
+//     width: 20px;
+//     height: 20px;
+//     background-image: url("../img/socialicons/twitter_white.png");
+//     background-size: contain;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     margin: 0 15px 0 0;
+// }
+
+// .tilter__website
+// {
+//     width: 20px;
+//     height: 20px;
+//     background-image: url("../img/socialicons/web_white.png");
+//     background-size: contain;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     margin: 0 0;
+// }
+
+// .tilter--1 .tilter__figure::before 
+// {
+//     box-shadow: 0 30px 20px rgba(0,0,0,0.5);
+// }
+
+// .floating-block--team
+// {
+//     width: 90%;
+//     position: absolute;
+//     bottom: 0;
+//     right: 5%;
+//     padding: 30px 40px;
+//     background-color: $purple;
+//     -webkit-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+//     -moz-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+//     box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+//     box-sizing: border-box;
+//     overflow: hidden;
+//     z-index: 500;
+//     position: absolute;
+// }
+
+// .top__first-headline {
+//     margin-top: 50px;
+// }
+
+// .floating-block--team{
+//     bottom: -100px;
+// }
+
+// @media(min-width: 768px)
+// {
+//     .floating-block--team
+//     {
+//         width: 550px;
+//         position: absolute;
+//         bottom: -570px;
+//         right: 110px;
+//         padding: 70px 70px;
+//         background-color: $purple;
+//         opacity: 0;
+//     }
+
+//     .content
+//     {
+//       padding-top: 100px;
+//     }
+
+//     .tilter 
+//     {
+//       margin: 1%;
+//     }
+// }
+
+
+*, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 .wrap-team
 {
-	width: 80%;
-	display: block;
-	margin: 0 auto;
-	position: relative;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
   max-width: 1600px;
 }
 
-.content 
+#top__bgTeam
 {
-    padding-top: 70px;
-    padding-bottom: 100px;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  background-image: url(../img/team/team_top_bg.jpg);
 }
 
-.tilter 
-{
-    display: block;
-    position: relative;
-    width: 300px;
-    height: 415px;
-    margin: 30px;
-    color: #fff;
-    flex: none;
-    perspective: 1000px;
-}
 
+.content
+{
+  padding-top: 70px;
+  padding-bottom: 100px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.tilter
+{
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 415px;
+  margin: 30px;
+  color: #fff;
+  flex: none;
+  perspective: 1000px;
+}
 .tilter:hover,
-.tilter:focus 
+.tilter:focus
 {
-    color: #fff;
-    outline: none;
+  color: #fff;
+  outline: none;
 }
-
 .tilter__figure,
-.tilter__image 
+.tilter__image
 {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
-
 .tilter__overlay{
   position: absolute;
   top: 0;
@@ -66,205 +339,181 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
   opacity: 0.4;
 }
-
-.tilter__figure > * 
+.tilter__figure > *
 {
-    transform: translateZ(0px); /* Force correct stacking order */
+  transform: translateZ(0px); /* Force correct stacking order */
 }
-
-
 .smooth .tilter__figure,
 .smooth .tilter__deco--overlay,
 .smooth .tilter__deco--lines,
 .smooth .tilter__deco--shine div,
-.smooth .tilter__caption 
+.smooth .tilter__caption
 {
-    transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
 }
-
-.tilter__figure 
+.tilter__figure
 {
-    position: relative;
+  position: relative;
 }
-
-.tilter__figure::before 
+.tilter__figure::before
 {
-    content: '';
-    position: absolute;
-    width: 90%;
-    height: 90%;
-    top: 5%;
-    left: 5%;
-    box-shadow: 0 30px 20px rgba(35,32,39,0.5);
+  content: '';
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  box-shadow: 0 30px 20px rgba(35,32,39,0.5);
 }
-
-.tilter__deco 
+.tilter__deco
 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
-
-.tilter__deco--overlay 
+.tilter__deco--overlay
 {
-    background-image: linear-gradient(45deg, rgba(226, 60, 99, 0.4), rgba(145, 58, 252, 0.4), rgba(16, 11, 192, 0.4));
+  background-image: linear-gradient(45deg, rgba(226, 60, 99, 0.4), rgba(145, 58, 252, 0.4), rgba(16, 11, 192, 0.4));
 }
-
-.tilter__deco--shine div 
+.tilter__deco--shine div
 {
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    top: -50%;
-    left: -50%;
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.25) 50%, transparent 100%);
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.25) 50%, transparent 100%);
 }
-
-.tilter__deco--lines 
+.tilter__deco--lines
 {
-    fill: none;
-    stroke: #fff;
-    stroke-width: 1.5px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5px;
 }
-
-.tilter__caption 
+.tilter__caption
 {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 3em;
-    z-index: 99;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 3em;
+  z-index: 99;
 }
-
-.tilter__title1 
+.tilter__title1
 {
-    margin: 0;
-    font-size: 2em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: $green;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    margin-bottom: 3px;
+  margin: 0;
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: $green;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
 }
-
-.tilter__title2 
+.tilter__title2
 {
-    margin: 0;
-    font-size: 1em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+  margin: 0;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
-
-.tilter__description 
+.tilter__description
 {
-    margin: 1em 0 0 0;
-    font-size: 0.7em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #fff;
-    letter-spacing: 0.2em;
-    line-height: 1.4em;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+  margin: 1em 0 0 0;
+  font-size: 0.7em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 0.2em;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
-
-.tilter__social 
+.tilter__social
 {
-    display: flex;
+  display: flex;
 }
-
-.tilter__linkedin 
+.tilter__linkedin
 {
-    width: 20px;
-    height: 20px;
-    background-image: url("../img/socialicons/linkedin2_white.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0 15px 0 0;
-    cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/socialicons/linkedin2_white.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 15px 0 0;
+  cursor: pointer;
 }
-
-.tilter__twitter 
+.tilter__twitter
 {
-    width: 20px;
-    height: 20px;
-    background-image: url("../img/socialicons/twitter_white.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0 15px 0 0;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/socialicons/twitter_white.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 15px 0 0;
 }
-
 .tilter__website
 {
-    width: 20px;
-    height: 20px;
-    background-image: url("../img/socialicons/web_white.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0 0;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/socialicons/web_white.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 0;
 }
-
-.tilter--1 .tilter__figure::before 
+.tilter--1 .tilter__figure::before
 {
-    box-shadow: 0 30px 20px rgba(0,0,0,0.5);
+  box-shadow: 0 30px 20px rgba(0,0,0,0.5);
 }
-
 .floating-block--team
 {
-    width: 90%;
-    position: absolute;
-    bottom: 0;
-    right: 5%;
-    padding: 30px 40px;
-    background-color: $purple;
-    -webkit-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
-    box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
-    box-sizing: border-box;
-    overflow: hidden;
-    z-index: 500;
-    position: absolute;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  padding: 30px 40px;
+  background-color: $purple;
+  -webkit-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 72px 0px rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 500;
+  position: absolute;
 }
-
 .top__first-headline {
-    margin-top: 50px;
+  margin-top: 50px;
 }
-
 .floating-block--team{
-    bottom: -100px;
+  bottom: -100px;
 }
-
 @media(min-width: 768px)
 {
-    .floating-block--team
-    {
-        width: 550px;
-        position: absolute;
-        bottom: -570px;
-        right: 110px;
-        padding: 70px 70px;
-        background-color: $purple;
-        opacity: 0;
-    }
-
-    .content
-    {
-      padding-top: 100px;
-    }
-
-    .tilter 
-    {
-      margin: 1%;
-    }
+  .floating-block--team
+  {
+    width: 550px;
+    position: absolute;
+    bottom: -570px;
+    right: 110px;
+    padding: 70px 70px;
+    background-color: $purple;
+    opacity: 0;
+  }
+  .content
+  {
+    padding-top: 100px;
+  }
+  .tilter
+  {
+    margin: 1%;
+  }
 }

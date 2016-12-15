@@ -193,9 +193,9 @@
 
 .side--bg
 {
-  background-image: url(../img/contact/contact_bg.png);
+  background-image: url(../img/contact.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: left 14% center;
   width: 35%;
   position: relative;
 }
@@ -387,7 +387,8 @@
   {
     left: 10%;
     padding-top: 100px;
-    bottom: 200px;
+    bottom: auto;
+    position: relative;
   }
 
   .contact-info__logo-description
