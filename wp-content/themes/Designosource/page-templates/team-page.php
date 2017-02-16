@@ -11,8 +11,9 @@
         <p class="block-text block-text--white">Ontdek de 15 gemotiveerde, geestdriftige, pixel-perfect, licht gestoorde designers en developers van Designosource.</p>
     </div>
 </div>
-
+<div class="team__bg"></div>
 <div class="wrap-team">
+    
     <main class="smooth">
         <section class="content">
             <div class="tilter tilter--1">
@@ -324,9 +325,10 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/public/js/main.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/public/js/imagesloaded.pkgd.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/public/js/anime.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/public/js/main.js"></script>
+
 <script>
 
     window.onbeforeunload = function () {
@@ -549,8 +551,9 @@
         // Preload all images.
         imagesLoaded(document.querySelector('main'), function() {
             document.body.classList.remove('loading');
-            init();
+            
         });
+        init();
 
     })();
 

@@ -27,6 +27,7 @@
 	background-size: cover;
 	background-attachment: fixed;
 	opacity: 0;
+	z-index: 99;
 }
 
 .top__title
@@ -241,6 +242,7 @@
 	background-image: url(../img/workflow/workflow_1.jpg);
 	background-size: cover;
 	background-position: center;
+	z-index: 0;
 }
 
 .fourth-block__content

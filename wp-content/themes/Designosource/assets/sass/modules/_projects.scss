@@ -159,6 +159,23 @@
  margin-bottom: -25vh;
  opacity: 0;
 }
+
+.wrap-panel-content h1
+{
+  position: relative;
+}
+
+.wrap-panel-content h1:before
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  height: 100%;
+  width: 0;
+  background-color: red;
+}
+
 .wrap-panel-content > p
 {
   font-family: "Lato", sans-serif;
