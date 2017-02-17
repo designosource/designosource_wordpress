@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+    /* Template name: Home*/
+
+    get_header();
+?>
 
 <div class="home__video">
 	<div class="home__content">

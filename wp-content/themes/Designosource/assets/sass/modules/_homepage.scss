@@ -1,148 +1,63 @@
-#homeWrap
+.home
 {
- position: relative;
- height: 100vh;
- width: 100%;
- background-position: center center;
- background-size: cover;
+   background-color: black;
 }
 
-#homeContainer
+.home__video
 {
- background-image: url("../img/homePicture.jpg");
- background-position: left center;
- background-size: cover;
- width: 100%;
- height: 100vh;
- color: white;
- display: block;
- position: absolute;
-}
-
-#logoDesigno
-{
- width: 300px;
- position: relative;
-}
-
-#homeMovie
-{
- display: none;
-}
-
-#homePanelContent
-{
- bottom: 0;
- margin-bottom: 20px;
- z-index: 99;
- text-align: left;
- position: relative;
- height: 120px;
- margin-top:-60px;
- top: 50%;
- width: 300px;
- margin-left: -150px;
- left: 50%;
- z-index: 999;
-}
-
-#homeButtons
-{
- display: flex;
- position: relative;
- width: 300px;
- margin-left: -150px;
- left: 50%;
-}
-
-#homeButtons a {
- text-decoration: none;
-}
-
-#homeButtons > a:nth-child(2)
-{
- margin-left: 13px;
-}
-
-#logoTM
-{
- width: 150px;
- bottom: 50px;
- left: 50%;
- transform: translateX(-50%);
- -moz-transform: translateX(-50%);
- -o-transform: translateX(-50%);
- -ms-transform: translateX(-50%);
- -webkit-transform: translateX(-50%);
- position: relative;
- cursor: pointer;
-}
-
-@media (min-width: 768px) {
-
-   .home
-   {
-      background-color: black;
-   }
-
- .filmpje{
-   position: absolute;
-   right: 20px;
-   bottom: 0;
-   top: 0;
-   width: calc(100% - 40px);
-   height: 100%;
-   background-size: 100% 100%;
-   object-fit: cover;
-   z-index: 0;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
    opacity: 0;
- }
+}
 
- #homeContainer
- {
-   background-image: none;
- }
-
-
- #homeMovie
- {
-   display: block;
- }
-
- #homePanelContent
- {
-   width: 550px;
-   margin-left: -275px;
-   left: 50%;
-    z-index: 999;
-    opacity: 0;
- }
-
- #logoDesigno
- {
-   width: 550px;
- }
-
- #homeButtons
- {
-   margin-top: 15px;
+.home__content
+{
    text-align: center;
-   width: 400px;
-   left: 67%;
- }
+   width: 100%;
+   position: relative;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
 
- #logoTM
- {
-   width: 100px;
-   bottom: 40px;
-   z-index: 9999;
-   right: 0;
+.home__content__logo
+{
+   width: 80%;
+   max-width: 550px;
+}
+
+.home__content__buttons
+{
+   position: relative;
+   right: -150px;
+}
+
+.home__tm-logo
+{
+   height: 40px;
+   width: auto;
    position: absolute;
-   left: auto;
- }
+   bottom: 50px;
+   right: 50px;
+   z-index: 999;
+}
 
- #homeButtons > a:nth-child(2)
- {
-   margin-left: 20px;
- }
+
+@media screen and (max-width: 768px)
+{
+   .home__content__buttons
+   {
+      position: relative;
+      right: auto;
+      margin-top: 30px;
+
+      .button
+      {
+         width: 100%;
+         margin-top: 20px;
+         display: block;
+      }
+   }
 }

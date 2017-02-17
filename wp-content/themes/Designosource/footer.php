@@ -1,4 +1,4 @@
-</div>
+
 
     <!-- <div class="loading"></div> -->
     <script src="<?php echo get_template_directory_uri(); ?>/public/js/jquery.shuffleLetters.js"></script>

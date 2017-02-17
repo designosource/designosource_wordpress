@@ -22,16 +22,16 @@
 /** The name of the database for WordPress */
 define('WP_CACHE', false); //Added by WP-Cache Manager
 
-define('DB_NAME', 'nickyky117_designo');
+define('DB_NAME', 'ID220762_designo');
 
 /** MySQL database username */
-define('DB_USER', 'nickyky117_des');
+define('DB_USER', 'ID220762_designo');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'designosource');
+define('DB_PASSWORD', 'designosource007');
 
 /** MySQL hostname */
-define('DB_HOST', 'wearestrong.be');
+define('DB_HOST', 'ID220762_designo.db.webhosting.be');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -39,8 +39,8 @@ define('DB_CHARSET', 'utf8mb4');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-define('WP_HOME','http://localhost:8888');
-define('WP_SITEURL','http://localhost:8888');
+define('WP_HOME','http://designosource.dev');
+define('WP_SITEURL','http://designosource.dev');
 
 /**#@+
  * Authentication Unique Keys and Salts.
